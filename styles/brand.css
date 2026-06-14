@@ -1,0 +1,65 @@
+/*
+ * Intuit brand design tokens — extracted from https://www.intuit.com/ (2026-06-14).
+ *
+ * Font note: Intuit uses "AvenirNext forINTUIT", a licensed commercial typeface
+ * (Avenir Next). It is NOT bundled here — we reference it via local() so it
+ * renders for users who have Avenir installed, then fall back to a web-safe
+ * stack. Bundling the woff2 files would require an Intuit/Monotype license.
+ */
+
+@font-face {
+  font-family: "AvenirNext forINTUIT";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Avenir Next Regular"), local("AvenirNext-Regular");
+}
+
+@font-face {
+  font-family: "AvenirNext forINTUIT";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Avenir Next Medium"), local("AvenirNext-Medium");
+}
+
+@font-face {
+  font-family: "AvenirNext forINTUIT";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Avenir Next Bold"), local("AvenirNext-Bold");
+}
+
+:root {
+  /* Intuit brand fonts */
+  --intuit-font-family: "AvenirNext forINTUIT", avenir, helvetica, arial, sans-serif;
+
+  /* Intuit brand colors */
+  --intuit-blue: #236cff;
+  --intuit-blue-alt: #2176ff;
+  --intuit-blue-dark: #0058e4;
+  --intuit-navy: #00254a;
+  --intuit-text-heading: #393a3d;
+  --intuit-text-body: #21262a;
+  --intuit-section-grey: #f4f5f8;
+  --intuit-section-blue: #eff4f9;
+  --intuit-section-dark: #21262a;
+
+  /* Intuit type scale (desktop) */
+  --intuit-display-size: 72px;
+  --intuit-display-line: 76px;
+  --intuit-h2-size: 34px;
+  --intuit-h2-line: 44px;
+  --intuit-h3-large-size: 32px;
+  --intuit-h3-large-line: 42px;
+  --intuit-h3-card-size: 20px;
+  --intuit-h3-card-line: 28px;
+  --intuit-body-size: 16px;
+  --intuit-body-line: 24px;
+
+  /* Intuit layout */
+  --intuit-nav-height: 60px;
+  --intuit-content-max-width: 1200px;
+  --intuit-cta-radius: 4px;
+}
