@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://www.intuit.com/",
+  "path": "index",
+  "timestamp": "2026-06-14T19:33:50.210Z",
+  "title": "Intuit®: Outdo your financial goals—all in one place",
+  "template": "homepage",
+  "blocks": [
+    "columns-product",
+    "columns-product",
+    "columns-product",
+    "columns-product",
+    "carousel-stories",
+    "carousel-stories",
+    "carousel-stories",
+    "hero-platform",
+    "advanced-tabs-product",
+    "advanced-tabs-stories",
+    "card-articles",
+    "card-linktile"
+  ]
+}

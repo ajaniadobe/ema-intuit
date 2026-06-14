@@ -1,0 +1,84 @@
+/* columns-product: image | content split used inside product showcase panels.
+   Image on one side, brand logo + eyebrow + heading + paragraph + CTA on the other. */
+
+.columns-product {
+  --columns-gap: var(--spacing-xl);
+
+  display: grid;
+  gap: var(--columns-gap);
+
+  img {
+    display: block;
+    border-radius: 12px;
+  }
+
+  .row {
+    display: grid;
+    align-items: center;
+    gap: var(--columns-gap);
+  }
+
+  .col {
+    :first-child {
+      margin-top: 0;
+    }
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /* eyebrow line: small product logo + uppercase label */
+  .col p:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: var(--body-font-size-s, 14px);
+    font-weight: 700;
+  }
+
+  .col p:first-of-type img {
+    width: 24px;
+    height: 24px;
+  }
+
+  &.image-cover {
+    .cover-row {
+      .cover-content {
+        padding: var(--spacing-xxl);
+      }
+
+      .cover-image {
+        position: relative;
+        padding-bottom: 100%;
+
+        picture {
+          position: absolute;
+          inset: 0;
+        }
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (width >= 900px) {
+  .columns-product {
+    .row {
+      grid-template-columns: repeat(var(--child-count), 1fr);
+    }
+
+    &.z-pattern {
+      .row:nth-of-type(odd) .col-1 {
+        order: 2;
+      }
+    }
+  }
+}

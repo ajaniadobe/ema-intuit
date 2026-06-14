@@ -1,0 +1,46 @@
+/* advanced-tabs-product: product showcase tab switcher (Intuit homepage).
+   A centered row of underline tab labels switches sibling sections that
+   each hold a product panel (customer photo + logo/eyebrow/heading/desc/CTA). */
+
+.advanced-tabs-product {
+  .section {
+    display: none;
+
+    &.is-visible {
+      display: block;
+    }
+
+    &[data-status] {
+      display: none;
+    }
+  }
+}
+
+.advanced-tabs-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 24px;
+  margin: 0 0 var(--spacing-l);
+  padding: 0;
+
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: var(--body-font-size-l, 18px);
+    font-weight: 600;
+    padding: 8px 4px;
+    margin: 0;
+    color: light-dark(var(--color-gray-600, #555), var(--color-gray-300, #ccc));
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: border-bottom 0.2s ease-in-out, color 0.2s ease-in-out;
+
+    &.is-active {
+      color: light-dark(#000, #fff);
+      border-bottom: 2px solid light-dark(#000, #fff);
+    }
+  }
+}

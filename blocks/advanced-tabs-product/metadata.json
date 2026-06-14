@@ -1,0 +1,37 @@
+{
+  "variantName": "advanced-tabs-product",
+  "baseBlock": "advanced-tabs",
+  "version": "1.0.0",
+  "created": "2026-06-14T18:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.intuit.com/",
+    "originPage": "Intuit corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "spacious",
+    "purpose": "product",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tab labels + per-tab panel (image + logo + eyebrow + heading + paragraph + CTA)",
+    "buttonCount": 4,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product showcase tab switchers",
+      "multi-product/brand panels with image + content split"
+    ],
+    "notSuitableFor": [
+      "simple two-tab text toggles",
+      "FAQ/accordion content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-14T18:10:00.000Z"
+  }
+}

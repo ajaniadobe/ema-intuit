@@ -1,0 +1,79 @@
+/* card-articles: innovation/news cards (Intuit homepage).
+   Each card: category eyebrow + image + heading (+ optional subheading) + link.
+   Authored as repeated card blocks laid out in a responsive grid by the section. */
+
+.card-articles {
+  --spacing-default: var(--spacing-l);
+
+  overflow-wrap: break-word;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 12%);
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: light-dark(var(--color-gray-100), var(--color-gray-900));
+  color: light-dark(var(--color-dark), var(--color-light));
+  transition: all 0.25s ease-in-out;
+
+  .card-articles-inner {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+  }
+
+  .card-articles-picture-container {
+    position: relative;
+    padding-bottom: 60%;
+
+    picture {
+      position: absolute;
+      inset: 0;
+    }
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .card-articles-content-container {
+    padding: var(--spacing-default);
+
+    /* category eyebrow label */
+    :first-child {
+      margin-top: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 700;
+      color: light-dark(var(--color-gray-600, #555), var(--color-gray-300, #ccc));
+    }
+
+    :last-child {
+      margin-bottom: 0;
+    }
+
+    &:has(+ .card-articles-cta-container) {
+      padding: var(--spacing-default) var(--spacing-default) var(--spacing-m) var(--spacing-default);
+    }
+  }
+
+  .card-articles-cta-container {
+    padding: 0 var(--spacing-default) var(--spacing-default) var(--spacing-default);
+    margin: 0;
+    display: flex;
+    justify-content: start;
+  }
+
+  &:hover {
+    transform: scale(1.005);
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 16%);
+  }
+
+  /* CTA-only tile (e.g. "See all stories") */
+  &.cta-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

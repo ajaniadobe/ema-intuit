@@ -1,0 +1,37 @@
+{
+  "variantName": "card-linktile",
+  "baseBlock": "card",
+  "version": "1.0.0",
+  "created": "2026-06-14T18:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.intuit.com/",
+    "originPage": "Intuit corporate homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "colored",
+    "density": "wide",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tall photo + heading; whole tile links out",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "large clickable navigation/CTA image tiles",
+      "rows of 2-4 'go here' destination cards"
+    ],
+    "notSuitableFor": [
+      "article cards with separate body text + read-more link (use card-articles)",
+      "data-dense content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-14T18:10:00.000Z"
+  }
+}

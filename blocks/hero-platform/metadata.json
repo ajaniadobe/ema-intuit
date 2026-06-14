@@ -1,0 +1,37 @@
+{
+  "variantName": "hero-platform",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-14T18:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.intuit.com/",
+    "originPage": "Intuit corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + CTA",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "dark full-bleed corporate hero banners",
+      "platform/product landing heroes with a single primary CTA"
+    ],
+    "notSuitableFor": [
+      "light text-only heroes",
+      "heroes requiring multiple CTAs in a row"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-14T18:10:00.000Z"
+  }
+}
