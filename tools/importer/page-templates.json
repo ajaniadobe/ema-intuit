@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.intuit.com/"],
+      "description": "Intuit en-US homepage: hero with headline + CTA, product showcase tabs (TurboTax/Credit Karma/QuickBooks/Mailchimp), customer success carousel, innovation/impact card grid, and a 'driving success together' link-card row.",
+      "blocks": [
+        {
+          "name": "hero-platform",
+          "instances": ["section[data-section=\"hero\"]"]
+        },
+        {
+          "name": "advanced-tabs-product",
+          "instances": ["section[data-section=\"product-showcase\"]"]
+        },
+        {
+          "name": "columns-product",
+          "instances": ["section[data-section=\"product-showcase\"] div[data-cols]"]
+        },
+        {
+          "name": "advanced-tabs-stories",
+          "instances": ["section[data-section=\"customer-success\"]"]
+        },
+        {
+          "name": "carousel-stories",
+          "instances": ["section[data-section=\"customer-success\"] div[data-carousel]"]
+        },
+        {
+          "name": "card-articles",
+          "instances": ["section[data-section=\"innovation\"] div[data-cards]"]
+        },
+        {
+          "name": "card-linktile",
+          "instances": ["section[data-section=\"driving-success\"] div[data-cards]"]
+        },
+        {
+          "name": "section-product-showcase",
+          "instances": ["section[data-section=\"product-showcase\"]"],
+          "section": "light-grey"
+        },
+        {
+          "name": "section-customer-success",
+          "instances": ["section[data-section=\"customer-success\"]"],
+          "section": "light"
+        },
+        {
+          "name": "section-innovation",
+          "instances": ["section[data-section=\"innovation\"]"],
+          "section": "light"
+        },
+        {
+          "name": "section-driving-success",
+          "instances": ["section[data-section=\"driving-success\"]"],
+          "section": "sky-blue"
+        }
+      ]
+    }
+  ]
+}

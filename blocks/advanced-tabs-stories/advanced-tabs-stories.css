@@ -1,0 +1,50 @@
+/* advanced-tabs-stories: audience pill switcher for the customer success
+   carousel (Intuit homepage). Pills (Small Businesses / Individuals /
+   Mid-Market Businesses) switch sibling sections that each contain a
+   nested customer-story carousel. */
+
+.advanced-tabs-stories {
+  .section {
+    display: none;
+
+    &.is-visible {
+      display: block;
+    }
+
+    &[data-status] {
+      display: none;
+    }
+  }
+}
+
+.advanced-tabs-stories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 8px;
+  margin: 0 auto var(--spacing-l);
+  padding: 6px;
+  width: fit-content;
+  background-color: light-dark(var(--color-gray-100, #f2f2f2), var(--color-gray-800, #2a2a2a));
+  border-radius: 999px;
+
+  button {
+    background-color: transparent;
+    border: none;
+    border-radius: 999px;
+    font-size: var(--body-font-size-m, 16px);
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0;
+    color: light-dark(var(--color-gray-600, #555), var(--color-gray-300, #ccc));
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+    &.is-active {
+      color: light-dark(#fff, #000);
+      background-color: light-dark(#000, #fff);
+    }
+  }
+}

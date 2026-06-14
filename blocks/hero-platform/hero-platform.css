@@ -1,0 +1,104 @@
+/* hero-platform: dark, full-bleed platform hero (Intuit homepage).
+   Left-aligned heading + paragraph + CTA on a dark navy background.
+   The right-side animated product graphic is a structural/decorative
+   asset (Lottie) that lives in the page chrome, not author content. */
+
+.hero-platform {
+  --gradient-start: rgb(var(--color-dark-base) / 80%);
+  --gradient-end: rgb(var(--color-dark-base) / 20%);
+  --default-min-height: 480px;
+  --min-height: var(--default-min-height);
+
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  background-color: #0a0a23;
+}
+
+.hero-platform.large {
+  --min-height: 720px;
+}
+
+.hero-platform.light {
+  --gradient-start: rgb(var(--color-light-base) / 80%);
+
+  color: var(--color-dark);
+}
+
+.hero-platform .hero-platform-background {
+  picture {
+    position: absolute;
+    inset: 0;
+  }
+
+  img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.hero-platform .hero-platform-foreground {
+  min-height: var(--min-height);
+  padding: var(--spacing-xxl) 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  p {
+    margin: 16px 0;
+  }
+
+  .fg-text {
+    width: var(--grid-container-width);
+    margin: 0 auto;
+  }
+
+  div > *:first-child {
+    margin-top: 0;
+  }
+
+  div > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .hero-platform-detail {
+    margin: 0;
+  }
+
+  .hero-platform-heading {
+    margin: 0;
+    font-size: var(--heading-font-size-xxl, 48px);
+    line-height: 1.1;
+  }
+}
+
+@media (width >= 600px) {
+  .hero-platform .hero-platform-foreground {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    justify-content: space-between;
+    max-width: var(--grid-container-width);
+    margin: 0 auto;
+
+    .fg-text {
+      width: unset;
+      margin: unset;
+    }
+  }
+}
+
+@media (width >= 900px) {
+  .hero-platform .hero-platform-foreground {
+    grid-template-columns: 45% 45%;
+  }
+}

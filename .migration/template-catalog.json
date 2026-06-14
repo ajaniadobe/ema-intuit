@@ -1,0 +1,1618 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "representativePages": [
+        "https://www.intuit.com/",
+        "https://www.intuit.com/company/corporate-responsibility/sustainability/climate-action-marketplace/"
+      ],
+      "urls": [
+        "https://www.intuit.com/",
+        "https://www.intuit.com/company/corporate-responsibility/sustainability/climate-action-marketplace/",
+        "https://www.intuit.com/possibilities/"
+      ],
+      "description": "Structure derived from / (3 pages)"
+    },
+    {
+      "name": "accessibility",
+      "representativePages": [
+        "https://www.intuit.com/accessibility/",
+        "https://www.intuit.com/technology/",
+        "https://www.intuit.com/ca/expert-careers/resources/",
+        "https://www.intuit.com/careers/"
+      ],
+      "urls": [
+        "https://www.intuit.com/accessibility/",
+        "https://www.intuit.com/ai/research/publications/",
+        "https://www.intuit.com/ca/expert-careers/resources/",
+        "https://www.intuit.com/ca/legal/privacy-policy/jan-2017/",
+        "https://www.intuit.com/careers/",
+        "https://www.intuit.com/careers/locations/israel/",
+        "https://www.intuit.com/careers/programs/intuit-again/",
+        "https://www.intuit.com/careers/rethink/",
+        "https://www.intuit.com/careers/teams/marketing-communications/",
+        "https://www.intuit.com/careers/teams/product-management/",
+        "https://www.intuit.com/careers/working-at-intuit/",
+        "https://www.intuit.com/fr-ca/expert-carrieres/ressources/",
+        "https://www.intuit.com/in/careers/",
+        "https://www.intuit.com/in/careers/software-engineering/",
+        "https://www.intuit.com/in/great-place-to-work/collaborating/",
+        "https://www.intuit.com/in/great-place-to-work/developing-our-people/",
+        "https://www.intuit.com/in/great-place-to-work/diversity-and-inclusion/",
+        "https://www.intuit.com/in/great-place-to-work/hiring-at-intuit-india/",
+        "https://www.intuit.com/in/great-place-to-work/inspiring-everyone/",
+        "https://www.intuit.com/in/great-place-to-work/listening/",
+        "https://www.intuit.com/in/great-place-to-work/sharing-and-learning/",
+        "https://www.intuit.com/in/great-place-to-work/thanking-and-celebrating/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/see-demo/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/start-now-form/",
+        "https://www.intuit.com/privacy/responsible-ai/",
+        "https://www.intuit.com/privacy/statement/",
+        "https://www.intuit.com/privacy/statement/july-2021/",
+        "https://www.intuit.com/technology/"
+      ],
+      "description": "Structure derived from /accessibility/ (28 pages)"
+    },
+    {
+      "name": "accountants",
+      "representativePages": [
+        "https://www.intuit.com/accountants/"
+      ],
+      "urls": [
+        "https://www.intuit.com/accountants/"
+      ],
+      "description": "Structure derived from /accountants/ (1 page)"
+    },
+    {
+      "name": "ai-research",
+      "representativePages": [
+        "https://www.intuit.com/ai/research/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ai/research/"
+      ],
+      "description": "Structure derived from /ai/research/ (1 page)"
+    },
+    {
+      "name": "anthropic",
+      "representativePages": [
+        "https://www.intuit.com/anthropic/"
+      ],
+      "urls": [
+        "https://www.intuit.com/anthropic/"
+      ],
+      "description": "Structure derived from /anthropic/ (1 page)"
+    },
+    {
+      "name": "ca",
+      "representativePages": [
+        "https://www.intuit.com/ca/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/"
+      ],
+      "description": "Structure derived from /ca/ (1 page)"
+    },
+    {
+      "name": "ca-best-place-to-work",
+      "representativePages": [
+        "https://www.intuit.com/ca/best-place-to-work/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/best-place-to-work/"
+      ],
+      "description": "Structure derived from /ca/best-place-to-work/ (1 page)"
+    },
+    {
+      "name": "ca-best-place-to-work-2",
+      "representativePages": [
+        "https://www.intuit.com/ca/best-place-to-work/hiring-and-developing/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/design-for-delight/",
+        "https://www.intuit.com/careers/hiring-process/",
+        "https://www.intuit.com/expert-careers/cpa-jobs-boise-idaho/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/partner-list/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/best-place-to-work/hiring-and-developing/",
+        "https://www.intuit.com/ca/best-place-to-work/speaking-and-listening/",
+        "https://www.intuit.com/ca/best-place-to-work/thanking-and-celebrating/",
+        "https://www.intuit.com/ca/company/corporate-responsibility/",
+        "https://www.intuit.com/careers/hiring-process/",
+        "https://www.intuit.com/company/corporate-responsibility/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/design-for-delight/",
+        "https://www.intuit.com/company/corporate-responsibility/report/",
+        "https://www.intuit.com/company/corporate-responsibility/sustainability/partners/",
+        "https://www.intuit.com/expert-careers/cpa-jobs-boise-idaho/",
+        "https://www.intuit.com/fr-ca/company/code-of-conduct-and-ethics/",
+        "https://www.intuit.com/fr-ca/company/corporate-responsibility/",
+        "https://www.intuit.com/fr-ca/company/corporate-responsibility/report/",
+        "https://www.intuit.com/fr-ca/partners/education-program/resources/",
+        "https://www.intuit.com/fr-ca/partners/education-program/support/",
+        "https://www.intuit.com/in/company/press-room/",
+        "https://www.intuit.com/intuit-for-startups/israel/data-classification-challenge-2024/",
+        "https://www.intuit.com/partners/fdp/implementation-support/",
+        "https://www.intuit.com/partners/fdp/implementation-support/direct-api/",
+        "https://www.intuit.com/partners/fdp/implementation-support/support/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/data-import/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/faq/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/partner-list/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/resources/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/technical-overview/"
+      ],
+      "description": "Structure derived from /ca/best-place-to-work/hiring-and-developing/ (27 pages)"
+    },
+    {
+      "name": "ca-best-place-to-work-3",
+      "representativePages": [
+        "https://www.intuit.com/ca/best-place-to-work/inspiring-and-caring/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/best-place-to-work/inspiring-and-caring/"
+      ],
+      "description": "Structure derived from /ca/best-place-to-work/inspiring-and-caring/ (1 page)"
+    },
+    {
+      "name": "ca-careers",
+      "representativePages": [
+        "https://www.intuit.com/ca/careers/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/careers/",
+        "https://www.intuit.com/fr-ca/careers/"
+      ],
+      "description": "Structure derived from /ca/careers/ (2 pages)"
+    },
+    {
+      "name": "ca-company",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/",
+        "https://www.intuit.com/in/company/"
+      ],
+      "description": "Structure derived from /ca/company/ (2 pages)"
+    },
+    {
+      "name": "ca-company-code-of-conduct",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/code-of-conduct-and-ethics/",
+        "https://www.intuit.com/support/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/code-of-conduct-and-ethics/",
+        "https://www.intuit.com/in/company/press-room/media-coverage/archive/",
+        "https://www.intuit.com/support/"
+      ],
+      "description": "Structure derived from /ca/company/code-of-conduct-and-ethics/ (3 pages)"
+    },
+    {
+      "name": "ca-company-contact",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/contact/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/",
+        "https://www.intuit.com/careers/teams/live-experts/",
+        "https://www.intuit.com/company/corporate-responsibility/prosperity-hub/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/contact/",
+        "https://www.intuit.com/ca/company/corporate-responsibility/job-readiness/",
+        "https://www.intuit.com/ca/company/executives/sasan-goodarzi/",
+        "https://www.intuit.com/careers/teams/live-experts/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/",
+        "https://www.intuit.com/company/corporate-responsibility/prosperity-hub/",
+        "https://www.intuit.com/company/corporate-responsibility/sustainability/",
+        "https://www.intuit.com/expert-careers/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-atlanta/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-austin/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-boston/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-charlotte/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-chattanooga/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-chicago/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-columbia/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-dallas/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-denver/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-greensboro/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-houston/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-indianapolis/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-kansas-city/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-las-vegas/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-lexington/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-los-angeles/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-madison/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-memphis/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-nashville/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-new-orleans/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-new-york/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-phoenix/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-pittsburgh/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-portland/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-richmond/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-rochester/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-san-antonio/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-san-diego/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-san-jose/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-seattle/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-st-louis/",
+        "https://www.intuit.com/expert-careers/tax-preparer-cpa-jobs-tampa/",
+        "https://www.intuit.com/fr-ca/company/corporate-responsibility/job-readiness/",
+        "https://www.intuit.com/fr-ca/company/corporate-responsibility/sustainability/",
+        "https://www.intuit.com/in/company/corporate-responsibility/",
+        "https://www.intuit.com/solutions/education/learners/"
+      ],
+      "description": "Structure derived from /ca/company/contact/ (44 pages)"
+    },
+    {
+      "name": "ca-company-corporate-responsibility-jobs",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/corporate-responsibility/jobs/",
+        "https://www.intuit.com/company/press-room/logos/",
+        "https://www.intuit.com/careers/programs/internships/",
+        "https://www.intuit.com/company/corporate-responsibility/intuit-ideas/",
+        "https://www.intuit.com/fr-ca/company/executives/sasan-goodarzi/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/corporate-responsibility/jobs/",
+        "https://www.intuit.com/ca/company/corporate-responsibility/sustainability/",
+        "https://www.intuit.com/careers/programs/entry-level-careers/",
+        "https://www.intuit.com/careers/programs/internships/",
+        "https://www.intuit.com/careers/programs/students-and-grads/",
+        "https://www.intuit.com/careers/quickbooks-live-experts/",
+        "https://www.intuit.com/careers/talent-community/",
+        "https://www.intuit.com/company/contact/",
+        "https://www.intuit.com/company/corporate-responsibility/intuit-ideas/",
+        "https://www.intuit.com/company/corporate-responsibility/we-care-and-give-back/",
+        "https://www.intuit.com/company/press-room/logos/",
+        "https://www.intuit.com/expert-careers/bookkeeping-jobs/",
+        "https://www.intuit.com/fr-ca/company/executives/sasan-goodarzi/",
+        "https://www.intuit.com/military/",
+        "https://www.intuit.com/solutions/education/community/",
+        "https://www.intuit.com/solutions/education/resources/calculators/"
+      ],
+      "description": "Structure derived from /ca/company/corporate-responsibility/jobs/ (16 pages)"
+    },
+    {
+      "name": "ca-company-diversity",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/diversity/",
+        "https://www.intuit.com/careers/programs/tech-women-at-intuit/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/diversity/",
+        "https://www.intuit.com/careers/programs/tech-women-at-intuit/",
+        "https://www.intuit.com/company/diversity/"
+      ],
+      "description": "Structure derived from /ca/company/diversity/ (3 pages)"
+    },
+    {
+      "name": "ca-company-executives",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/executives/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/executives/",
+        "https://www.intuit.com/company/executives/",
+        "https://www.intuit.com/company/executives/brad-d-smith/"
+      ],
+      "description": "Structure derived from /ca/company/executives/ (3 pages)"
+    },
+    {
+      "name": "ca-company-locations",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/locations/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/locations/",
+        "https://www.intuit.com/company/locations/"
+      ],
+      "description": "Structure derived from /ca/company/locations/ (2 pages)"
+    },
+    {
+      "name": "ca-company-operating-values",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/operating-values/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/operating-values/"
+      ],
+      "description": "Structure derived from /ca/company/operating-values/ (1 page)"
+    },
+    {
+      "name": "ca-company-policies",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/policies/",
+        "https://www.intuit.com/fr-ca/company/press-room/media-contacts/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/policies/",
+        "https://www.intuit.com/ca/company/press-room/logos/",
+        "https://www.intuit.com/ca/company/press-room/media-contacts/",
+        "https://www.intuit.com/ca/company/supplier-programs/policies/purchase-order-terms/",
+        "https://www.intuit.com/ca/company/supplier-programs/policies/supplier-code-of-conduct/",
+        "https://www.intuit.com/ca/legal/",
+        "https://www.intuit.com/ca/legal/accessibility/",
+        "https://www.intuit.com/ca/legal/permissions/",
+        "https://www.intuit.com/ca/legal/piracy/",
+        "https://www.intuit.com/ca/legal/process/",
+        "https://www.intuit.com/ca/legal/trademark/",
+        "https://www.intuit.com/ca/prosperity-accelerator/faqs/",
+        "https://www.intuit.com/ca/prosperity-accelerator/terms-and-conditions/",
+        "https://www.intuit.com/careers/legal/",
+        "https://www.intuit.com/careers/locations/",
+        "https://www.intuit.com/careers/privacy-fr/",
+        "https://www.intuit.com/careers/privacy/",
+        "https://www.intuit.com/careers/recruitment-fraud/",
+        "https://www.intuit.com/company/supplier-programs/policies/conflict-mineral-policy/",
+        "https://www.intuit.com/company/supplier-programs/policies/contractors-rules-of-conduct/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/australia/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/canada/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/france/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/india-software/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/india-technology/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/india/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/ireland/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/israel/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/singapore/",
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/united-kingdom/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/brazil/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/canada-fr/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/france/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/mexico/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-responsibility/",
+        "https://www.intuit.com/fr-ca/company/press-room/media-contacts/",
+        "https://www.intuit.com/fr-ca/company/supplier-programs/policies/supplier-code-of-conduct/",
+        "https://www.intuit.com/fr-ca/legal/permissions/",
+        "https://www.intuit.com/in/company/press-room/logos/",
+        "https://www.intuit.com/legal/",
+        "https://www.intuit.com/legal/intuit-group-companies/",
+        "https://www.intuit.com/legal/licenses/payment-licenses/",
+        "https://www.intuit.com/legal/piracy/",
+        "https://www.intuit.com/legal/process/",
+        "https://www.intuit.com/legal/trademark/",
+        "https://www.intuit.com/legal/whistleblower-policy-au/",
+        "https://www.intuit.com/privacy/data-stewardship-principles/",
+        "https://www.intuit.com/privacy/protect-your-privacy/",
+        "https://www.intuit.com/privacy/statement/applicant-and-employees/",
+        "https://www.intuit.com/privacy/statement/contingent-workers/",
+        "https://www.intuit.com/privacy/statement/contingent-workers/es/",
+        "https://www.intuit.com/privacy/statement/contingent-workers/fr/",
+        "https://www.intuit.com/privacy/statement/data-privacy-certification/",
+        "https://www.intuit.com/privacy/statement/es/",
+        "https://www.intuit.com/privacy/statement/fr-ca/",
+        "https://www.intuit.com/privacy/statement/fr/",
+        "https://www.intuit.com/privacy/statement/pt-br/"
+      ],
+      "description": "Structure derived from /ca/company/policies/ (58 pages)"
+    },
+    {
+      "name": "ca-company-press-room",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/press-room/",
+        "https://www.intuit.com/products/",
+        "https://www.intuit.com/local-impact/losangeles/",
+        "https://www.intuit.com/privacy/submit-a-question/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/press-room/",
+        "https://www.intuit.com/ca/partners/education-program/registration/educator-profile-tax/",
+        "https://www.intuit.com/ca/partners/education-program/registration/educators/profile/",
+        "https://www.intuit.com/ca/products/",
+        "https://www.intuit.com/fr-ca/company/supplier-programs/policies/conflict-mineral-policy/",
+        "https://www.intuit.com/in/company/code-of-conduct-and-ethics/",
+        "https://www.intuit.com/local-impact/losangeles/",
+        "https://www.intuit.com/privacy/data-usage/",
+        "https://www.intuit.com/privacy/do-not-call-policy/",
+        "https://www.intuit.com/privacy/submit-a-question/",
+        "https://www.intuit.com/products/"
+      ],
+      "description": "Structure derived from /ca/company/press-room/ (11 pages)"
+    },
+    {
+      "name": "ca-company-supplier-programs",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/supplier-programs/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/supplier-programs/"
+      ],
+      "description": "Structure derived from /ca/company/supplier-programs/ (1 page)"
+    },
+    {
+      "name": "ca-company-supplier-programs-policies",
+      "representativePages": [
+        "https://www.intuit.com/ca/company/supplier-programs/policies/conflict-mineral-policy/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/company/supplier-programs/policies/conflict-mineral-policy/",
+        "https://www.intuit.com/ca/company/supplier-programs/policies/contractors-rules-of-conduct/",
+        "https://www.intuit.com/ca/company/supplier-programs/policies/supplier-responsibility/",
+        "https://www.intuit.com/fr-ca/company/press-room/logos/",
+        "https://www.intuit.com/fr-ca/company/supplier-programs/policies/supplier-responsibility/",
+        "https://www.intuit.com/fr-ca/legal/",
+        "https://www.intuit.com/fr-ca/legal/accessibility/",
+        "https://www.intuit.com/fr-ca/legal/piracy/",
+        "https://www.intuit.com/fr-ca/legal/trademark/"
+      ],
+      "description": "Structure derived from /ca/company/supplier-programs/policies/conflict-mineral-policy/ (9 pages)"
+    },
+    {
+      "name": "ca-partners",
+      "representativePages": [
+        "https://www.intuit.com/ca/partners/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/partners/"
+      ],
+      "description": "Structure derived from /ca/partners/ (1 page)"
+    },
+    {
+      "name": "ca-partners-education-program",
+      "representativePages": [
+        "https://www.intuit.com/ca/partners/education-program/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/partners/education-program/",
+        "https://www.intuit.com/ca/partners/education-program/registration/student-quickbooks-online/",
+        "https://www.intuit.com/ca/partners/education-program/registration/students/quickbooks-online/",
+        "https://www.intuit.com/ca/partners/education-program/teaching-the-future-of-cloud-accounting/"
+      ],
+      "description": "Structure derived from /ca/partners/education-program/ (4 pages)"
+    },
+    {
+      "name": "ca-partners-education-program-canada",
+      "representativePages": [
+        "https://www.intuit.com/ca/partners/education-program/canada-education-partners/",
+        "https://www.intuit.com/ca/partners/education-program/resources/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/partners/education-program/canada-education-partners/",
+        "https://www.intuit.com/ca/partners/education-program/resources/",
+        "https://www.intuit.com/ca/partners/education-program/support/"
+      ],
+      "description": "Structure derived from /ca/partners/education-program/canada-education-partners/ (3 pages)"
+    },
+    {
+      "name": "ca-partners-education-program-registration",
+      "representativePages": [
+        "https://www.intuit.com/ca/partners/education-program/registration/",
+        "https://www.intuit.com/intuit-for-startups/israel/team/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/partners/education-program/registration/",
+        "https://www.intuit.com/intuit-for-startups/israel/team/"
+      ],
+      "description": "Structure derived from /ca/partners/education-program/registration/ (2 pages)"
+    },
+    {
+      "name": "ca-partners-education-program-registration-2",
+      "representativePages": [
+        "https://www.intuit.com/ca/partners/education-program/registration/educator-quickbooks-online/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/partners/education-program/registration/educator-quickbooks-online/",
+        "https://www.intuit.com/ca/partners/education-program/registration/educators/quickbooks-online/"
+      ],
+      "description": "Structure derived from /ca/partners/education-program/registration/educator-quickbooks-online/ (2 pages)"
+    },
+    {
+      "name": "ca-partners-education-program-registration-3",
+      "representativePages": [
+        "https://www.intuit.com/ca/partners/education-program/registration/student-profile-tax/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/partners/education-program/registration/student-profile-tax/",
+        "https://www.intuit.com/ca/partners/education-program/registration/students/profile/"
+      ],
+      "description": "Structure derived from /ca/partners/education-program/registration/student-profile-tax/ (2 pages)"
+    },
+    {
+      "name": "ca-prosperity-accelerator",
+      "representativePages": [
+        "https://www.intuit.com/ca/prosperity-accelerator/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/prosperity-accelerator/"
+      ],
+      "description": "Structure derived from /ca/prosperity-accelerator/ (1 page)"
+    },
+    {
+      "name": "ca-prosperity-accelerator-alumni",
+      "representativePages": [
+        "https://www.intuit.com/ca/prosperity-accelerator/alumni/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/prosperity-accelerator/alumni/"
+      ],
+      "description": "Structure derived from /ca/prosperity-accelerator/alumni/ (1 page)"
+    },
+    {
+      "name": "ca-prosperity-accelerator-teams",
+      "representativePages": [
+        "https://www.intuit.com/ca/prosperity-accelerator/teams/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/prosperity-accelerator/teams/"
+      ],
+      "description": "Structure derived from /ca/prosperity-accelerator/teams/ (1 page)"
+    },
+    {
+      "name": "ca-support",
+      "representativePages": [
+        "https://www.intuit.com/ca/support/",
+        "https://www.intuit.com/fr-ca/support/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ca/support/",
+        "https://www.intuit.com/fr-ca/support/"
+      ],
+      "description": "Structure derived from /ca/support/ (2 pages)"
+    },
+    {
+      "name": "careers-benefits",
+      "representativePages": [
+        "https://www.intuit.com/careers/benefits/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/benefits/",
+        "https://www.intuit.com/careers/benefits/full-time-employees/",
+        "https://www.intuit.com/careers/benefits/seasonal-employees/",
+        "https://www.intuit.com/careers/benefits/select-time-employees/"
+      ],
+      "description": "Structure derived from /careers/benefits/ (4 pages)"
+    },
+    {
+      "name": "careers-locations-united-states",
+      "representativePages": [
+        "https://www.intuit.com/careers/locations/united-states/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/locations/united-states/"
+      ],
+      "description": "Structure derived from /careers/locations/united-states/ (1 page)"
+    },
+    {
+      "name": "careers-return-to-work-plan",
+      "representativePages": [
+        "https://www.intuit.com/careers/return-to-work-plan/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/return-to-work-plan/"
+      ],
+      "description": "Structure derived from /careers/return-to-work-plan/ (1 page)"
+    },
+    {
+      "name": "careers-teams-data-science",
+      "representativePages": [
+        "https://www.intuit.com/careers/teams/data-science/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/teams/data-science/"
+      ],
+      "description": "Structure derived from /careers/teams/data-science/ (1 page)"
+    },
+    {
+      "name": "careers-teams-sales",
+      "representativePages": [
+        "https://www.intuit.com/careers/teams/sales/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/teams/sales/"
+      ],
+      "description": "Structure derived from /careers/teams/sales/ (1 page)"
+    },
+    {
+      "name": "careers-teams-software-engineering",
+      "representativePages": [
+        "https://www.intuit.com/careers/teams/software-engineering/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/teams/software-engineering/"
+      ],
+      "description": "Structure derived from /careers/teams/software-engineering/ (1 page)"
+    },
+    {
+      "name": "careers-turbotax-live-experts",
+      "representativePages": [
+        "https://www.intuit.com/careers/turbotax-live-experts/",
+        "https://www.intuit.com/expert-careers/business-tax/"
+      ],
+      "urls": [
+        "https://www.intuit.com/careers/turbotax-live-experts/",
+        "https://www.intuit.com/expert-careers/business-tax/",
+        "https://www.intuit.com/expert-careers/remote-accounting-jobs/",
+        "https://www.intuit.com/expert-careers/tax-preparers/"
+      ],
+      "description": "Structure derived from /careers/turbotax-live-experts/ (4 pages)"
+    },
+    {
+      "name": "chatgpt",
+      "representativePages": [
+        "https://www.intuit.com/chatgpt/"
+      ],
+      "urls": [
+        "https://www.intuit.com/chatgpt/"
+      ],
+      "description": "Structure derived from /chatgpt/ (1 page)"
+    },
+    {
+      "name": "company",
+      "representativePages": [
+        "https://www.intuit.com/company/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/"
+      ],
+      "description": "Structure derived from /company/ (1 page)"
+    },
+    {
+      "name": "company-code-of-conduct-and",
+      "representativePages": [
+        "https://www.intuit.com/company/code-of-conduct-and-ethics/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/code-of-conduct-and-ethics/"
+      ],
+      "description": "Structure derived from /company/code-of-conduct-and-ethics/ (1 page)"
+    },
+    {
+      "name": "company-corporate-responsibility-job-readiness",
+      "representativePages": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/design-for-delight/toolkit-form/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/design-for-delight/toolkit-form/"
+      ],
+      "description": "Structure derived from /company/corporate-responsibility/job-readiness/design-for-delight/toolkit-form/ (1 page)"
+    },
+    {
+      "name": "company-corporate-responsibility-job-readiness-2",
+      "representativePages": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/educator-pat-hambright/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/educator-pat-hambright/"
+      ],
+      "description": "Structure derived from /company/corporate-responsibility/job-readiness/stories/educator-pat-hambright/ (1 page)"
+    },
+    {
+      "name": "company-corporate-responsibility-job-readiness-3",
+      "representativePages": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/intuit-helps-aspiring-young-entrepreneurs-make-an-impact-through-social-innovation/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/personal-finance-and-the-importance-of-tax-education/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-enlighteners/",
+        "https://www.intuit.com/company/press-room/media-contacts/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/intuit-helps-aspiring-young-entrepreneurs-make-an-impact-through-social-innovation/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/personal-finance-and-the-importance-of-tax-education/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-enlighteners/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-lj/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-m8/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-minority-mixers/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-moure/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-refaire/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/turning-dreamers-into-entrepreneurs/",
+        "https://www.intuit.com/company/press-room/media-contacts/",
+        "https://www.intuit.com/company/press-room/press-inquiry/"
+      ],
+      "description": "Structure derived from /company/corporate-responsibility/job-readiness/stories/intuit-helps-aspiring-young-entrepreneurs-make-an-impact-through-social-innovation/ (11 pages)"
+    },
+    {
+      "name": "company-corporate-responsibility-job-readiness-4",
+      "representativePages": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-envisage/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-envisage/",
+        "https://www.intuit.com/company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-savor-straws/"
+      ],
+      "description": "Structure derived from /company/corporate-responsibility/job-readiness/stories/social-innovation-team-profile-envisage/ (2 pages)"
+    },
+    {
+      "name": "company-corporate-responsibility-jobs",
+      "representativePages": [
+        "https://www.intuit.com/company/corporate-responsibility/jobs/",
+        "https://www.intuit.com/in/company/corporate-responsibility/educating-the-girl-child/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/corporate-responsibility/jobs/",
+        "https://www.intuit.com/in/company/corporate-responsibility/educating-the-girl-child/"
+      ],
+      "description": "Structure derived from /company/corporate-responsibility/jobs/ (2 pages)"
+    },
+    {
+      "name": "company-corporate-responsibility-prosperity-hub",
+      "representativePages": [
+        "https://www.intuit.com/company/corporate-responsibility/prosperity-hub/school-districts/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/corporate-responsibility/prosperity-hub/school-districts/"
+      ],
+      "description": "Structure derived from /company/corporate-responsibility/prosperity-hub/school-districts/ (1 page)"
+    },
+    {
+      "name": "company-executives-sasan-goodarzi",
+      "representativePages": [
+        "https://www.intuit.com/company/executives/sasan-goodarzi/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/executives/sasan-goodarzi/"
+      ],
+      "description": "Structure derived from /company/executives/sasan-goodarzi/ (1 page)"
+    },
+    {
+      "name": "company-operating-values",
+      "representativePages": [
+        "https://www.intuit.com/company/operating-values/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/operating-values/",
+        "https://www.intuit.com/in/company/operating-values/"
+      ],
+      "description": "Structure derived from /company/operating-values/ (2 pages)"
+    },
+    {
+      "name": "company-origins",
+      "representativePages": [
+        "https://www.intuit.com/company/origins/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/origins/"
+      ],
+      "description": "Structure derived from /company/origins/ (1 page)"
+    },
+    {
+      "name": "company-policies",
+      "representativePages": [
+        "https://www.intuit.com/company/policies/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/policies/"
+      ],
+      "description": "Structure derived from /company/policies/ (1 page)"
+    },
+    {
+      "name": "company-press-room",
+      "representativePages": [
+        "https://www.intuit.com/company/press-room/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/press-room/"
+      ],
+      "description": "Structure derived from /company/press-room/ (1 page)"
+    },
+    {
+      "name": "company-supplier-programs",
+      "representativePages": [
+        "https://www.intuit.com/company/supplier-programs/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/supplier-programs/"
+      ],
+      "description": "Structure derived from /company/supplier-programs/ (1 page)"
+    },
+    {
+      "name": "company-supplier-programs-policies-purchase",
+      "representativePages": [
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/supplier-programs/policies/purchase-order-terms/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/israel-hebrew/",
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-code-of-conduct/singapore-chinese/",
+        "https://www.intuit.com/fr-ca/company/supplier-programs/policies/purchase-order-terms/",
+        "https://www.intuit.com/legal/permissions/"
+      ],
+      "description": "Structure derived from /company/supplier-programs/policies/purchase-order-terms/ (5 pages)"
+    },
+    {
+      "name": "company-supplier-programs-policies-supplier",
+      "representativePages": [
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-screening-standards/"
+      ],
+      "urls": [
+        "https://www.intuit.com/company/supplier-programs/policies/supplier-screening-standards/",
+        "https://www.intuit.com/privacy/previous-privacy-statements/"
+      ],
+      "description": "Structure derived from /company/supplier-programs/policies/supplier-screening-standards/ (2 pages)"
+    },
+    {
+      "name": "compliance",
+      "representativePages": [
+        "https://www.intuit.com/compliance/",
+        "https://www.intuit.com/fr-ca/company/locations/"
+      ],
+      "urls": [
+        "https://www.intuit.com/compliance/",
+        "https://www.intuit.com/fr-ca/company/locations/",
+        "https://www.intuit.com/in/company/press-room/media-contacts/"
+      ],
+      "description": "Structure derived from /compliance/ (3 pages)"
+    },
+    {
+      "name": "credit-card",
+      "representativePages": [
+        "https://www.intuit.com/credit-card/"
+      ],
+      "urls": [
+        "https://www.intuit.com/credit-card/"
+      ],
+      "description": "Structure derived from /credit-card/ (1 page)"
+    },
+    {
+      "name": "enterprise",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/",
+        "https://www.intuit.com/enterprise/accountant/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/",
+        "https://www.intuit.com/enterprise/accountant/"
+      ],
+      "description": "Structure derived from /enterprise/ (2 pages)"
+    },
+    {
+      "name": "enterprise-account-management",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/account-management/",
+        "https://www.intuit.com/intuitconnect/agenda/",
+        "https://www.intuit.com/solutions/education/courses/entrepreneurial-finance/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/account-management/",
+        "https://www.intuit.com/enterprise/ibs/",
+        "https://www.intuit.com/intuitconnect/agenda/",
+        "https://www.intuit.com/solutions/education/courses/entrepreneurial-finance/",
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/",
+        "https://www.intuit.com/solutions/education/resources/support/",
+        "https://www.intuit.com/solutions/education/why-intuit/our-commitment/"
+      ],
+      "description": "Structure derived from /enterprise/account-management/ (7 pages)"
+    },
+    {
+      "name": "enterprise-accounting",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/accounting/",
+        "https://www.intuit.com/enterprise/accounting/business-forecasting/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/accounting/",
+        "https://www.intuit.com/enterprise/accounting/business-forecasting/",
+        "https://www.intuit.com/enterprise/accounting/business-intelligence-reports/",
+        "https://www.intuit.com/enterprise/accounting/multi-entity/",
+        "https://www.intuit.com/enterprise/compare/",
+        "https://www.intuit.com/enterprise/migration/"
+      ],
+      "description": "Structure derived from /enterprise/accounting/ (6 pages)"
+    },
+    {
+      "name": "enterprise-ai-agents",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/ai-agents/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/ai-agents/"
+      ],
+      "description": "Structure derived from /enterprise/ai-agents/ (1 page)"
+    },
+    {
+      "name": "enterprise-automation-tools-payments-bill",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/automation-tools/payments-bill-pay/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/automation-tools/payments-bill-pay/"
+      ],
+      "description": "Structure derived from /enterprise/automation-tools/payments-bill-pay/ (1 page)"
+    },
+    {
+      "name": "enterprise-construction",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/construction/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/construction/"
+      ],
+      "description": "Structure derived from /enterprise/construction/ (1 page)"
+    },
+    {
+      "name": "enterprise-contact",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/contact/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/contact/"
+      ],
+      "description": "Structure derived from /enterprise/contact/ (1 page)"
+    },
+    {
+      "name": "enterprise-custom-erp",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/custom-erp/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/custom-erp/"
+      ],
+      "description": "Structure derived from /enterprise/custom-erp/ (1 page)"
+    },
+    {
+      "name": "enterprise-erp-solutions",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/erp-solutions/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/erp-solutions/"
+      ],
+      "description": "Structure derived from /enterprise/erp-solutions/ (1 page)"
+    },
+    {
+      "name": "enterprise-events",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/events/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/events/"
+      ],
+      "description": "Structure derived from /enterprise/events/ (1 page)"
+    },
+    {
+      "name": "enterprise-financial-services",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/financial-services/",
+        "https://www.intuit.com/enterprise/professional-services/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/financial-services/",
+        "https://www.intuit.com/enterprise/professional-services/"
+      ],
+      "description": "Structure derived from /enterprise/financial-services/ (2 pages)"
+    },
+    {
+      "name": "enterprise-pricing",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/pricing/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/pricing/"
+      ],
+      "description": "Structure derived from /enterprise/pricing/ (1 page)"
+    },
+    {
+      "name": "enterprise-workforce-automation",
+      "representativePages": [
+        "https://www.intuit.com/enterprise/workforce-automation/"
+      ],
+      "urls": [
+        "https://www.intuit.com/enterprise/workforce-automation/"
+      ],
+      "description": "Structure derived from /enterprise/workforce-automation/ (1 page)"
+    },
+    {
+      "name": "expert-careers-accounting-jobs-california",
+      "representativePages": [
+        "https://www.intuit.com/expert-careers/accounting-jobs-california/",
+        "https://www.intuit.com/fr-ca/"
+      ],
+      "urls": [
+        "https://www.intuit.com/expert-careers/accounting-jobs-california/",
+        "https://www.intuit.com/expert-careers/accounting-jobs-el-paso-texas/",
+        "https://www.intuit.com/expert-careers/bookkeeping-jobs-new-york/",
+        "https://www.intuit.com/fr-ca/"
+      ],
+      "description": "Structure derived from /expert-careers/accounting-jobs-california/ (4 pages)"
+    },
+    {
+      "name": "expert-careers-career-growth-accounting",
+      "representativePages": [
+        "https://www.intuit.com/expert-careers/career-growth-accounting-jobs/"
+      ],
+      "urls": [
+        "https://www.intuit.com/expert-careers/career-growth-accounting-jobs/",
+        "https://www.intuit.com/expert-careers/extra-income-accounting-jobs/"
+      ],
+      "description": "Structure derived from /expert-careers/career-growth-accounting-jobs/ (2 pages)"
+    },
+    {
+      "name": "expert-careers-join-tax-bookkeeping",
+      "representativePages": [
+        "https://www.intuit.com/expert-careers/join-tax-bookkeeping-community/"
+      ],
+      "urls": [
+        "https://www.intuit.com/expert-careers/join-tax-bookkeeping-community/"
+      ],
+      "description": "Structure derived from /expert-careers/join-tax-bookkeeping-community/ (1 page)"
+    },
+    {
+      "name": "expert-careers-resources",
+      "representativePages": [
+        "https://www.intuit.com/expert-careers/resources/"
+      ],
+      "urls": [
+        "https://www.intuit.com/expert-careers/resources/"
+      ],
+      "description": "Structure derived from /expert-careers/resources/ (1 page)"
+    },
+    {
+      "name": "expert-careers-reviews",
+      "representativePages": [
+        "https://www.intuit.com/expert-careers/reviews/"
+      ],
+      "urls": [
+        "https://www.intuit.com/expert-careers/reviews/"
+      ],
+      "description": "Structure derived from /expert-careers/reviews/ (1 page)"
+    },
+    {
+      "name": "financial-literacy",
+      "representativePages": [
+        "https://www.intuit.com/financial-literacy/"
+      ],
+      "urls": [
+        "https://www.intuit.com/financial-literacy/"
+      ],
+      "description": "Structure derived from /financial-literacy/ (1 page)"
+    },
+    {
+      "name": "financial-literacy-budgeting-guide",
+      "representativePages": [
+        "https://www.intuit.com/financial-literacy/budgeting-guide/"
+      ],
+      "urls": [
+        "https://www.intuit.com/financial-literacy/budgeting-guide/"
+      ],
+      "description": "Structure derived from /financial-literacy/budgeting-guide/ (1 page)"
+    },
+    {
+      "name": "fr-ca-company",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/company/",
+        "https://www.intuit.com/fr-ca/company/executives/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/get-a-quote-tool/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/company/",
+        "https://www.intuit.com/fr-ca/company/corporate-responsibility/jobs/",
+        "https://www.intuit.com/fr-ca/company/executives/",
+        "https://www.intuit.com/fr-ca/company/operating-values/",
+        "https://www.intuit.com/fr-ca/company/press-room/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/auto-launch-program/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/contact-us/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/conversions-mergers/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/get-a-quote-tool/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/support/log-file-location/"
+      ],
+      "description": "Structure derived from /fr-ca/company/ (11 pages)"
+    },
+    {
+      "name": "fr-ca-company-contact",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/company/contact/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/company/contact/"
+      ],
+      "description": "Structure derived from /fr-ca/company/contact/ (1 page)"
+    },
+    {
+      "name": "fr-ca-company-diversity",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/company/diversity/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/company/diversity/"
+      ],
+      "description": "Structure derived from /fr-ca/company/diversity/ (1 page)"
+    },
+    {
+      "name": "fr-ca-company-supplier-programs",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/company/supplier-programs/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/company/supplier-programs/"
+      ],
+      "description": "Structure derived from /fr-ca/company/supplier-programs/ (1 page)"
+    },
+    {
+      "name": "fr-ca-partners",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/partners/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/partners/"
+      ],
+      "description": "Structure derived from /fr-ca/partners/ (1 page)"
+    },
+    {
+      "name": "fr-ca-partners-education-program",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/partners/education-program/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/partners/education-program/",
+        "https://www.intuit.com/fr-ca/partners/education-program/teaching-the-future-of-cloud-accounting/"
+      ],
+      "description": "Structure derived from /fr-ca/partners/education-program/ (2 pages)"
+    },
+    {
+      "name": "fr-ca-partners-education-program-2",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/partners/education-program/canada-education-partners/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/partners/education-program/canada-education-partners/"
+      ],
+      "description": "Structure derived from /fr-ca/partners/education-program/canada-education-partners/ (1 page)"
+    },
+    {
+      "name": "fr-ca-partners-education-program-3",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/"
+      ],
+      "description": "Structure derived from /fr-ca/partners/education-program/registration/ (1 page)"
+    },
+    {
+      "name": "fr-ca-partners-education-program-4",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/educator-profile-tax/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/educator-profile-tax/",
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/educator-quickbooks-online/",
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/student-profile-tax/",
+        "https://www.intuit.com/fr-ca/partners/education-program/registration/student-quickbooks-online/"
+      ],
+      "description": "Structure derived from /fr-ca/partners/education-program/registration/educator-profile-tax/ (4 pages)"
+    },
+    {
+      "name": "fr-ca-products",
+      "representativePages": [
+        "https://www.intuit.com/fr-ca/products/"
+      ],
+      "urls": [
+        "https://www.intuit.com/fr-ca/products/"
+      ],
+      "description": "Structure derived from /fr-ca/products/ (1 page)"
+    },
+    {
+      "name": "in",
+      "representativePages": [
+        "https://www.intuit.com/in/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/"
+      ],
+      "description": "Structure derived from /in/ (1 page)"
+    },
+    {
+      "name": "in-careers-design-user-experience",
+      "representativePages": [
+        "https://www.intuit.com/in/careers/design-user-experience/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/careers/design-user-experience/"
+      ],
+      "description": "Structure derived from /in/careers/design-user-experience/ (1 page)"
+    },
+    {
+      "name": "in-careers-product-management",
+      "representativePages": [
+        "https://www.intuit.com/in/careers/product-management/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/careers/product-management/"
+      ],
+      "description": "Structure derived from /in/careers/product-management/ (1 page)"
+    },
+    {
+      "name": "in-company-contact",
+      "representativePages": [
+        "https://www.intuit.com/in/company/contact/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/company/contact/"
+      ],
+      "description": "Structure derived from /in/company/contact/ (1 page)"
+    },
+    {
+      "name": "in-company-locations",
+      "representativePages": [
+        "https://www.intuit.com/in/company/locations/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/company/locations/"
+      ],
+      "description": "Structure derived from /in/company/locations/ (1 page)"
+    },
+    {
+      "name": "in-company-press-room-media",
+      "representativePages": [
+        "https://www.intuit.com/in/company/press-room/media-coverage/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/company/press-room/media-coverage/"
+      ],
+      "description": "Structure derived from /in/company/press-room/media-coverage/ (1 page)"
+    },
+    {
+      "name": "in-great-place-to-work",
+      "representativePages": [
+        "https://www.intuit.com/in/great-place-to-work/"
+      ],
+      "urls": [
+        "https://www.intuit.com/in/great-place-to-work/"
+      ],
+      "description": "Structure derived from /in/great-place-to-work/ (1 page)"
+    },
+    {
+      "name": "intuit-for-startups-israel",
+      "representativePages": [
+        "https://www.intuit.com/intuit-for-startups/israel/"
+      ],
+      "urls": [
+        "https://www.intuit.com/intuit-for-startups/israel/"
+      ],
+      "description": "Structure derived from /intuit-for-startups/israel/ (1 page)"
+    },
+    {
+      "name": "intuitassist",
+      "representativePages": [
+        "https://www.intuit.com/intuitassist/"
+      ],
+      "urls": [
+        "https://www.intuit.com/intuitassist/"
+      ],
+      "description": "Structure derived from /intuitassist/ (1 page)"
+    },
+    {
+      "name": "intuitconnect",
+      "representativePages": [
+        "https://www.intuit.com/intuitconnect/"
+      ],
+      "urls": [
+        "https://www.intuit.com/intuitconnect/"
+      ],
+      "description": "Structure derived from /intuitconnect/ (1 page)"
+    },
+    {
+      "name": "intuitconnect-faqs",
+      "representativePages": [
+        "https://www.intuit.com/intuitconnect/faqs/"
+      ],
+      "urls": [
+        "https://www.intuit.com/intuitconnect/faqs/"
+      ],
+      "description": "Structure derived from /intuitconnect/faqs/ (1 page)"
+    },
+    {
+      "name": "intuitdome",
+      "representativePages": [
+        "https://www.intuit.com/intuitdome/"
+      ],
+      "urls": [
+        "https://www.intuit.com/intuitdome/"
+      ],
+      "description": "Structure derived from /intuitdome/ (1 page)"
+    },
+    {
+      "name": "legal-licenses",
+      "representativePages": [
+        "https://www.intuit.com/legal/licenses/"
+      ],
+      "urls": [
+        "https://www.intuit.com/legal/licenses/"
+      ],
+      "description": "Structure derived from /legal/licenses/ (1 page)"
+    },
+    {
+      "name": "legal-licenses-insurance-services",
+      "representativePages": [
+        "https://www.intuit.com/legal/licenses/insurance-services/"
+      ],
+      "urls": [
+        "https://www.intuit.com/legal/licenses/insurance-services/"
+      ],
+      "description": "Structure derived from /legal/licenses/insurance-services/ (1 page)"
+    },
+    {
+      "name": "legal-terms-en-us-quickbooks",
+      "representativePages": [
+        "https://www.intuit.com/legal/terms/en-us/quickbooks/controller-to-processor/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/technical-overview/testing/"
+      ],
+      "urls": [
+        "https://www.intuit.com/legal/terms/en-us/quickbooks/controller-to-processor/",
+        "https://www.intuit.com/legal/terms/en-us/quickbooks/processor-to-processor/",
+        "https://www.intuit.com/legal/terms/fr-ca/quickbooks/controller-to-processor/",
+        "https://www.intuit.com/legal/terms/fr-ca/quickbooks/processor-to-processor/",
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/program-overview/technical-overview/testing/"
+      ],
+      "description": "Structure derived from /legal/terms/en-us/quickbooks/controller-to-processor/ (5 pages)"
+    },
+    {
+      "name": "lifeing",
+      "representativePages": [
+        "https://www.intuit.com/lifeing/"
+      ],
+      "urls": [
+        "https://www.intuit.com/lifeing/"
+      ],
+      "description": "Structure derived from /lifeing/ (1 page)"
+    },
+    {
+      "name": "partners",
+      "representativePages": [
+        "https://www.intuit.com/partners/"
+      ],
+      "urls": [
+        "https://www.intuit.com/partners/"
+      ],
+      "description": "Structure derived from /partners/ (1 page)"
+    },
+    {
+      "name": "partners-fdp-implementation-support-ofx",
+      "representativePages": [
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/get-a-quote-form/",
+        "https://www.intuit.com/partners/fdp/implementation-support/partner-support-form/"
+      ],
+      "urls": [
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/get-a-quote-form/",
+        "https://www.intuit.com/partners/fdp/implementation-support/partner-support-form/"
+      ],
+      "description": "Structure derived from /partners/fdp/implementation-support/ofx/get-a-quote-form/ (2 pages)"
+    },
+    {
+      "name": "partners-fdp-implementation-support-ofx-2",
+      "representativePages": [
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/signup-help/"
+      ],
+      "urls": [
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/signup-help/"
+      ],
+      "description": "Structure derived from /partners/fdp/implementation-support/ofx/signup-help/ (1 page)"
+    },
+    {
+      "name": "partners-fdp-implementation-support-ofx-3",
+      "representativePages": [
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/support/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/why-connect/"
+      ],
+      "urls": [
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/support/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/why-connect/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/why-connect/connectivity-types/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/why-connect/get-started/",
+        "https://www.intuit.com/partners/fdp/implementation-support/ofx/why-connect/service-providers/"
+      ],
+      "description": "Structure derived from /partners/fdp/implementation-support/ofx/support/ (5 pages)"
+    },
+    {
+      "name": "partners-fdp-implementation-support-tax",
+      "representativePages": [
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/contact-us/"
+      ],
+      "urls": [
+        "https://www.intuit.com/partners/fdp/implementation-support/tax-import/contact-us/"
+      ],
+      "description": "Structure derived from /partners/fdp/implementation-support/tax-import/contact-us/ (1 page)"
+    },
+    {
+      "name": "privacy",
+      "representativePages": [
+        "https://www.intuit.com/privacy/"
+      ],
+      "urls": [
+        "https://www.intuit.com/privacy/",
+        "https://www.intuit.com/privacy/statement/personal-information/"
+      ],
+      "description": "Structure derived from /privacy/ (2 pages)"
+    },
+    {
+      "name": "privacy-authorized-agents-form",
+      "representativePages": [
+        "https://www.intuit.com/privacy/authorized-agents-form/"
+      ],
+      "urls": [
+        "https://www.intuit.com/privacy/authorized-agents-form/"
+      ],
+      "description": "Structure derived from /privacy/authorized-agents-form/ (1 page)"
+    },
+    {
+      "name": "privacy-authorized-agents-form-candidates",
+      "representativePages": [
+        "https://www.intuit.com/privacy/authorized-agents-form/candidates/"
+      ],
+      "urls": [
+        "https://www.intuit.com/privacy/authorized-agents-form/candidates/",
+        "https://www.intuit.com/privacy/authorized-agents-form/employees/"
+      ],
+      "description": "Structure derived from /privacy/authorized-agents-form/candidates/ (2 pages)"
+    },
+    {
+      "name": "privacy-authorized-agents-form-customer",
+      "representativePages": [
+        "https://www.intuit.com/privacy/authorized-agents-form/customer/"
+      ],
+      "urls": [
+        "https://www.intuit.com/privacy/authorized-agents-form/customer/"
+      ],
+      "description": "Structure derived from /privacy/authorized-agents-form/customer/ (1 page)"
+    },
+    {
+      "name": "privacy-responsible-ai-governance",
+      "representativePages": [
+        "https://www.intuit.com/privacy/responsible-ai/governance/"
+      ],
+      "urls": [
+        "https://www.intuit.com/privacy/responsible-ai/governance/"
+      ],
+      "description": "Structure derived from /privacy/responsible-ai/governance/ (1 page)"
+    },
+    {
+      "name": "privacy-transparency-report",
+      "representativePages": [
+        "https://www.intuit.com/privacy/transparency-report/"
+      ],
+      "urls": [
+        "https://www.intuit.com/privacy/transparency-report/"
+      ],
+      "description": "Structure derived from /privacy/transparency-report/ (1 page)"
+    },
+    {
+      "name": "prosperity-lab-israel",
+      "representativePages": [
+        "https://www.intuit.com/prosperity-lab-israel/"
+      ],
+      "urls": [
+        "https://www.intuit.com/prosperity-lab-israel/"
+      ],
+      "description": "Structure derived from /prosperity-lab-israel/ (1 page)"
+    },
+    {
+      "name": "solutions-education",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/",
+        "https://www.intuit.com/solutions/education/resources/professional-development/"
+      ],
+      "description": "Structure derived from /solutions/education/ (2 pages)"
+    },
+    {
+      "name": "solutions-education-courses-personal-finance",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/courses/personal-finance/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/courses/personal-finance/"
+      ],
+      "description": "Structure derived from /solutions/education/courses/personal-finance/ (1 page)"
+    },
+    {
+      "name": "solutions-education-higher-education",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/higher-education/",
+        "https://www.intuit.com/solutions/education/k12/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/higher-education/",
+        "https://www.intuit.com/solutions/education/k12/"
+      ],
+      "description": "Structure derived from /solutions/education/higher-education/ (2 pages)"
+    },
+    {
+      "name": "solutions-education-hour-of-finance",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/hour-of-finance/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/hour-of-finance/",
+        "https://www.intuit.com/solutions/education/hour-of-finance/challenge/"
+      ],
+      "description": "Structure derived from /solutions/education/hour-of-finance/ (2 pages)"
+    },
+    {
+      "name": "solutions-education-hour-of-finance-2",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/hour-of-finance/challenge/faqs/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/hour-of-finance/challenge/faqs/"
+      ],
+      "description": "Structure derived from /solutions/education/hour-of-finance/challenge/faqs/ (1 page)"
+    },
+    {
+      "name": "solutions-education-hour-of-finance-3",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/hour-of-finance/challenge/schools/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/hour-of-finance/challenge/schools/"
+      ],
+      "description": "Structure derived from /solutions/education/hour-of-finance/challenge/schools/ (1 page)"
+    },
+    {
+      "name": "solutions-education-resources-calculators-simple",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/resources/calculators/simple-loan/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/resources/calculators/simple-loan/"
+      ],
+      "description": "Structure derived from /solutions/education/resources/calculators/simple-loan/ (1 page)"
+    },
+    {
+      "name": "solutions-education-resources-proconnect-educator",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/resources/proconnect/educator-registration-form/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/resources/proconnect/educator-registration-form/"
+      ],
+      "description": "Structure derived from /solutions/education/resources/proconnect/educator-registration-form/ (1 page)"
+    },
+    {
+      "name": "solutions-education-resources-quickbooks-support",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/",
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/comparison/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/",
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/comparison/",
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/level-one/",
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/level-three/",
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/curriculum/level-two/"
+      ],
+      "description": "Structure derived from /solutions/education/resources/quickbooks-support/curriculum/ (5 pages)"
+    },
+    {
+      "name": "solutions-education-resources-quickbooks-support-2",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/educator-registration-form/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/resources/quickbooks-support/educator-registration-form/"
+      ],
+      "description": "Structure derived from /solutions/education/resources/quickbooks-support/educator-registration-form/ (1 page)"
+    },
+    {
+      "name": "solutions-education-why-intuit-privacy",
+      "representativePages": [
+        "https://www.intuit.com/solutions/education/why-intuit/privacy/"
+      ],
+      "urls": [
+        "https://www.intuit.com/solutions/education/why-intuit/privacy/"
+      ],
+      "description": "Structure derived from /solutions/education/why-intuit/privacy/ (1 page)"
+    },
+    {
+      "name": "strategy",
+      "representativePages": [
+        "https://www.intuit.com/strategy/"
+      ],
+      "urls": [
+        "https://www.intuit.com/strategy/"
+      ],
+      "description": "Structure derived from /strategy/ (1 page)"
+    },
+    {
+      "name": "ventures",
+      "representativePages": [
+        "https://www.intuit.com/ventures/"
+      ],
+      "urls": [
+        "https://www.intuit.com/ventures/"
+      ],
+      "description": "Structure derived from /ventures/ (1 page)"
+    }
+  ]
+}

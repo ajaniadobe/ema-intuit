@@ -1,0 +1,37 @@
+{
+  "variantName": "card-articles",
+  "baseBlock": "card",
+  "version": "1.0.0",
+  "created": "2026-06-14T18:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.intuit.com/",
+    "originPage": "Intuit corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "category eyebrow + image + heading (+ optional subheading) + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news / press / innovation article card grids",
+      "category-tagged cards with image + heading + read-more link"
+    ],
+    "notSuitableFor": [
+      "linked full-image tiles without separate content (use card-linktile)",
+      "data tables"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-14T18:10:00.000Z"
+  }
+}
