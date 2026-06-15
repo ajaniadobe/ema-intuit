@@ -144,6 +144,19 @@
     }
   }
 
+  /* Intuit "Powering prosperity together" light-green link-tiles section. */
+  &.light-green {
+    background-color: rgb(231 253 200);
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    > .default-content,
+    > .block-content {
+      max-width: var(--grid-container-width);
+      margin-inline: auto;
+    }
+  }
+
   &.has-background {
     position: relative;
 
