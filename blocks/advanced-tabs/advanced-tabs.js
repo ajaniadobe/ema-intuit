@@ -47,6 +47,9 @@ export default function init(el) {
   const tabs = el.querySelector('ul');
   if (!tabs) {
     log('Please add an unordered list to the advanced tabs block.');
+    // Restore parent visibility before bailing — otherwise main stays hidden
+    // and the entire page renders blank.
+    parent.removeAttribute('style');
     return;
   }
 

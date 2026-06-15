@@ -1,79 +1,155 @@
-/* card-articles: innovation/news cards (Intuit homepage).
-   Each card: category eyebrow + image + heading (+ optional subheading) + link.
-   Authored as repeated card blocks laid out in a responsive grid by the section. */
+/* card-articles: innovation / news / press card grid (Intuit homepage C05BlogArticleCards).
+   Source presents these as a horizontally-scrollable carousel of uniform 396px cards.
+   Migrated as a responsive grid that matches the card visuals exactly:
+   square image (radius 2px) + pill eyebrow + bold heading + optional subheading + blue link.
+   The final "See all stories" card renders as a solid blue CTA tile. */
 
 .card-articles {
-  --spacing-default: var(--spacing-l);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: start;
+}
 
-  overflow-wrap: break-word;
-  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 12%);
+/* each authored row is a card */
+.card-articles .card-articles-card {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+/* image cell: square, slightly rounded, cover-cropped */
+.card-articles .card-articles-image {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
   overflow: hidden;
-  border-radius: 12px;
-  background-color: light-dark(var(--color-gray-100), var(--color-gray-900));
-  color: light-dark(var(--color-dark), var(--color-light));
-  transition: all 0.25s ease-in-out;
+}
 
-  .card-articles-inner {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100%;
+.card-articles .card-articles-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.card-articles .card-articles-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* content cell: 32px above content, flex column so link sits at the bottom */
+.card-articles .card-articles-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 32px 0 0;
+}
+
+/* the card has no image -> no top spacing needed */
+.card-articles .card-articles-card:not(:has(.card-articles-image)) .card-articles-content {
+  padding-top: 0;
+}
+
+/* category eyebrow rendered as a pill */
+.card-articles .card-articles-eyebrow {
+  display: inline-block;
+  width: fit-content;
+  margin: 0 0 24px;
+  padding: 6px 12px;
+  border-radius: 40px;
+  background-color: rgb(0 37 74 / 7%);
+  color: var(--intuit-text-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* card heading */
+.card-articles .card-articles-content h3 {
+  margin: 0;
+  font-size: var(--intuit-h3-card-size); /* 20px card heading on desktop scale */
+  font-weight: 700;
+  line-height: var(--intuit-h3-card-line);
+  color: var(--intuit-text-heading);
+}
+
+/* optional subheading paragraph */
+.card-articles .card-articles-content p:not(.card-articles-eyebrow, .card-articles-link) {
+  margin: 12px 0 0;
+  font-size: var(--intuit-body-size);
+  line-height: var(--intuit-body-line);
+  color: var(--intuit-text-heading);
+}
+
+/* read-more link, pushed to the bottom of the card */
+.card-articles .card-articles-link {
+  margin: 24px 0 0;
+  padding: 0;
+}
+
+.card-articles .card-articles-link a {
+  display: inline-block;
+  padding-bottom: 3px;
+  border-bottom: 1px solid transparent;
+  color: var(--intuit-blue);
+  font-size: var(--intuit-body-size);
+  font-weight: 400;
+  line-height: var(--intuit-body-line);
+  text-decoration: none;
+}
+
+.card-articles .card-articles-link a:hover {
+  border-bottom-color: var(--intuit-blue);
+}
+
+/* "See all stories" CTA tile: solid blue square, centered content */
+.card-articles .card-articles-cta-tile {
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
+  background-color: var(--intuit-blue);
+}
+
+.card-articles .card-articles-cta-tile > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 48px;
+}
+
+.card-articles .card-articles-cta-tile h3 {
+  margin: 0 0 16px;
+  font-size: var(--intuit-h3-large-size); /* 32px */
+  font-weight: 400;
+  line-height: var(--intuit-h3-large-line);
+  color: #fff;
+}
+
+.card-articles .card-articles-cta-tile .card-articles-link {
+  margin: 0;
+}
+
+.card-articles .card-articles-cta-tile .card-articles-link a {
+  color: #fff;
+}
+
+.card-articles .card-articles-cta-tile .card-articles-link a:hover {
+  border-bottom-color: #fff;
+}
+
+/* responsive grid: 1 -> 2 -> 4 columns, matching the 4-up source layout */
+@media (width >= 600px) {
+  .card-articles {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .card-articles-picture-container {
-    position: relative;
-    padding-bottom: 60%;
-
-    picture {
-      position: absolute;
-      inset: 0;
-    }
-
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  .card-articles-content-container {
-    padding: var(--spacing-default);
-
-    /* category eyebrow label */
-    :first-child {
-      margin-top: 0;
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      font-weight: 700;
-      color: light-dark(var(--color-gray-600, #555), var(--color-gray-300, #ccc));
-    }
-
-    :last-child {
-      margin-bottom: 0;
-    }
-
-    &:has(+ .card-articles-cta-container) {
-      padding: var(--spacing-default) var(--spacing-default) var(--spacing-m) var(--spacing-default);
-    }
-  }
-
-  .card-articles-cta-container {
-    padding: 0 var(--spacing-default) var(--spacing-default) var(--spacing-default);
-    margin: 0;
-    display: flex;
-    justify-content: start;
-  }
-
-  &:hover {
-    transform: scale(1.005);
-    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 16%);
-  }
-
-  /* CTA-only tile (e.g. "See all stories") */
-  &.cta-tile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+@media (width >= 900px) {
+  .card-articles {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
