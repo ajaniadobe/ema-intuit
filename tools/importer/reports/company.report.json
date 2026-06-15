@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.intuit.com/company/",
+  "path": "company",
+  "timestamp": "2026-06-15T03:09:12.010Z",
+  "title": "About • Culture • Corporate Responsibility • Press • Investors | Intuit",
+  "template": "company",
+  "blocks": [
+    "hero-company",
+    "card-articles",
+    "card-stats",
+    "carousel-stories",
+    "columns-product",
+    "columns-product",
+    "card-linktile"
+  ]
+}

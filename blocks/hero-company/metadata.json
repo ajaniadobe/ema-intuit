@@ -1,0 +1,37 @@
+{
+  "variantName": "hero-company",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-15T02:42:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.intuit.com/company/",
+    "originPage": "Intuit Company / About landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | (eyebrow + heading + paragraph)",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "light mission/about heroes with a portrait photo beside the headline",
+      "image-beside-text intro heroes with no CTA button"
+    ],
+    "notSuitableFor": [
+      "dark full-bleed background-image heroes with overlaid text + CTA (use hero-platform)",
+      "centered text-only heroes with multiple CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/company/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T02:42:00.000Z"
+  }
+}
