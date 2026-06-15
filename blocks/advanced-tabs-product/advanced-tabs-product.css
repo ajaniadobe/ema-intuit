@@ -1,46 +1,175 @@
-/* advanced-tabs-product: product showcase tab switcher (Intuit homepage).
-   A centered row of underline tab labels switches sibling sections that
-   each hold a product panel (customer photo + logo/eyebrow/heading/desc/CTA). */
+/* advanced-tabs-product — Intuit homepage product showcase (C03ProductCarousel).
+   A row of product tabs switches self-contained panels; each panel shows a tall
+   customer photo beside content (product logo + UPPERCASE eyebrow, large heading,
+   body copy, and a navy "Go to <product>" CTA). Sits on a light section ground.
+
+   Values extracted from getComputedStyle on https://www.intuit.com/:
+   - section bg rgb(239,244,249) == --intuit-section-blue; pad 80px / 120px
+   - heading 40px / 500 / line 52px / --intuit-text-heading
+   - eyebrow 14px / line 20px; body 16px / line 24px / --intuit-text-heading
+   - CTA navy (--intuit-navy) / white / 500 / radius 4px / pad 0 30px / h 48px
+   - photo 286x508, object-fit cover, no radius (active pill is white, radius 100px) */
 
 .advanced-tabs-product {
-  .section {
-    display: none;
-
-    &.is-visible {
-      display: block;
-    }
-
-    &[data-status] {
-      display: none;
-    }
-  }
+  background-color: var(--intuit-section-blue, #eff4f9);
+  padding: 56px 0 72px;
 }
 
+/* --- Tab row --- */
+
+/* Source uses rounded "pills"; the active one is a white pill with a soft shadow.
+   The EDS JS renders these as a horizontal <button> row, so we echo the pill look. */
 .advanced-tabs-product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  list-style: none;
-  gap: 24px;
-  margin: 0 0 var(--spacing-l);
+  gap: 10px;
+  margin: 0 0 var(--spacing-xl);
   padding: 0;
+  list-style: none;
 
   button {
     background-color: transparent;
     border: none;
-    font-size: var(--body-font-size-l, 18px);
-    font-weight: 600;
-    padding: 8px 4px;
+    border-radius: 100px;
+    font-family: var(--intuit-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--intuit-text-heading, #393a3d);
+    padding: 16px 24px;
     margin: 0;
-    color: light-dark(var(--color-gray-600, #555), var(--color-gray-300, #ccc));
-    border-bottom: 2px solid transparent;
     box-sizing: border-box;
     cursor: pointer;
-    transition: border-bottom 0.2s ease-in-out, color 0.2s ease-in-out;
+    opacity: 0.7;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 
     &.is-active {
-      color: light-dark(#000, #fff);
-      border-bottom: 2px solid light-dark(#000, #fff);
+      background-color: #fff;
+      opacity: 1;
+      box-shadow: rgb(35 108 255 / 8%) 0 4px 16px 0;
     }
+  }
+}
+
+/* --- Panel show / hide (driven by .is-visible from the block JS) --- */
+.advanced-tabs-product .advanced-tabs-product-panel {
+  display: none;
+}
+
+.advanced-tabs-product .advanced-tabs-product-panel.is-visible {
+  display: block;
+}
+
+/* --- Panel: photo | content (unwrapped from the inner Columns Product table) --- */
+.advanced-tabs-product .product-panel-cols {
+  display: grid;
+  gap: var(--spacing-xl);
+  align-items: center;
+  max-width: var(--intuit-content-max-width, 1200px);
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* customer photo: tall portrait, cover, square corners (source has no radius) */
+.advanced-tabs-product .product-panel-col-1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* content column */
+.advanced-tabs-product .product-panel-col-2 > * {
+  margin: 0;
+}
+
+.advanced-tabs-product .product-panel-col-2 > * + * {
+  margin-top: 16px;
+}
+
+/* eyebrow line: small product logo + UPPERCASE label */
+.advanced-tabs-product .product-panel-col-2 p:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--intuit-text-heading, #393a3d);
+}
+
+.advanced-tabs-product .product-panel-col-2 p:first-of-type img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+/* heading */
+.advanced-tabs-product .product-panel-col-2 h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--intuit-text-heading, #393a3d);
+}
+
+/* body copy */
+.advanced-tabs-product .product-panel-col-2 p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--intuit-text-heading, #393a3d);
+}
+
+/* CTA "Go to <product>": navy filled button */
+.advanced-tabs-product .product-panel-col-2 p:last-of-type {
+  margin-top: var(--spacing-xl);
+}
+
+.advanced-tabs-product .product-panel-col-2 a:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 30px;
+  background-color: var(--intuit-navy, #00254a);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: var(--intuit-cta-radius, 4px);
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.advanced-tabs-product .product-panel-col-2 a:hover {
+  background-color: #001a36;
+}
+
+@media (width >= 900px) {
+  .advanced-tabs-product {
+    padding: 80px 0 120px;
+  }
+
+  .advanced-tabs-product .product-panel-cols {
+    grid-template-columns: 286px 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  /* tall portrait photo at its native size on desktop */
+  .advanced-tabs-product .product-panel-col-1 img {
+    width: 286px;
+    height: 508px;
+  }
+
+  .advanced-tabs-product .product-panel-col-2 h2 {
+    font-size: 40px;
+    line-height: 52px;
   }
 }

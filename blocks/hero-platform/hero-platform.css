@@ -1,104 +1,136 @@
 /* hero-platform: dark, full-bleed platform hero (Intuit homepage).
-   Left-aligned heading + paragraph + CTA on a dark navy background.
-   The right-side animated product graphic is a structural/decorative
-   asset (Lottie) that lives in the page chrome, not author content. */
+   Left-aligned display heading + subhead + "See it in action" CTA on a
+   dark-navy-to-blue gradient. The right-side product graphic on the source
+   is a decorative Lottie animation; we reserve its space but do not recreate it.
+
+   All visual values extracted from getComputedStyle on intuit.com #icom-hp-hero
+   (see migration-work/hero-platform-extracted.css). */
 
 .hero-platform {
-  --gradient-start: rgb(var(--color-dark-base) / 80%);
-  --gradient-end: rgb(var(--color-dark-base) / 20%);
-  --default-min-height: 480px;
-  --min-height: var(--default-min-height);
-
-  position: relative;
+  /* Dark navy fading to bright blue at the bottom -- exact source gradient stops. */
+  background-image: linear-gradient(
+    rgb(4 12 26) 0%,
+    rgb(6 19 43) 40%,
+    rgb(51 181 255) 100%
+  );
   color: #fff;
-  overflow: hidden;
-  background-color: #0a0a23;
-}
-
-.hero-platform.large {
-  --min-height: 720px;
-}
-
-.hero-platform.light {
-  --gradient-start: rgb(var(--color-light-base) / 80%);
-
-  color: var(--color-dark);
-}
-
-.hero-platform .hero-platform-background {
-  picture {
-    position: absolute;
-    inset: 0;
-  }
-
-  img {
-    display: block;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-
-  video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.hero-platform .hero-platform-foreground {
-  min-height: var(--min-height);
-  padding: var(--spacing-xxl) 0;
-  box-sizing: border-box;
   position: relative;
+  overflow: hidden;
+}
+
+/* --- Full-bleed: defeat the section's max-width wrapper --- */
+.hero-platform-wrapper {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* --- Foreground (the single content row from the authored cell) --- */
+.hero-platform .hero-platform-foreground {
+  box-sizing: border-box;
+  min-height: 480px;
+
+  /* Center the content column; mirror source container max-width + side padding. */
+  max-width: var(--intuit-content-max-width, 1200px);
+  margin: 0 auto;
+  padding: 64px 24px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+
+  /* keep the text column narrow like the source (~600px) so it doesn't
+     run into the decorative graphic area */
+  > * {
+    max-width: 600px;
+  }
+}
+
+/* Heading: source display03 -- 72px / 76px line-height / weight 400 / white. */
+.hero-platform .hero-platform-heading,
+.hero-platform h1 {
+  margin: 0 0 24px;
+  font-size: clamp(40px, 7vw, var(--heading-font-size-xxl, 72px));
+  font-weight: 400;
+  line-height: 1.06;
+  color: #fff;
+}
+
+/* Subhead: the plain text div between heading and CTA. 20px / 28px / white. */
+.hero-platform .hero-platform-foreground > div:not(.fg-text) {
+  margin: 0 0 24px;
+  font-size: var(--body-font-size-xl, 20px);
+  line-height: 28px;
+  color: #fff;
+}
+
+.hero-platform .hero-platform-foreground p {
+  margin: 0 0 24px;
+  font-size: var(--body-font-size-xl, 20px);
+  line-height: 28px;
+  color: #fff;
+}
+
+/* CTA "See it in action": white text link with a leading play-triangle icon.
+   Source is a borderless text link (24px / weight 500). Reset any EDS
+   button decoration that may be applied to a standalone <p><a>. */
+.hero-platform .hero-platform-foreground a,
+.hero-platform a:any-link {
+  display: inline-flex;
   align-items: center;
-
-  p {
-    margin: 16px 0;
-  }
-
-  .fg-text {
-    width: var(--grid-container-width);
-    margin: 0 auto;
-  }
-
-  div > *:first-child {
-    margin-top: 0;
-  }
-
-  div > *:last-child {
-    margin-bottom: 0;
-  }
-
-  .hero-platform-detail {
-    margin: 0;
-  }
-
-  .hero-platform-heading {
-    margin: 0;
-    font-size: var(--heading-font-size-xxl, 48px);
-    line-height: 1.1;
-  }
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
-@media (width >= 600px) {
-  .hero-platform .hero-platform-foreground {
-    display: grid;
-    grid-template-columns: 50% 45%;
-    justify-content: space-between;
-    max-width: var(--grid-container-width);
-    margin: 0 auto;
-
-    .fg-text {
-      width: unset;
-      margin: unset;
-    }
-  }
+/* Play-triangle glyph rendered before the CTA label (matches source 20px icon). */
+.hero-platform .hero-platform-foreground a::before,
+.hero-platform a:any-link::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 12px;
+  border-color: transparent transparent transparent #fff;
 }
 
+.hero-platform .hero-platform-foreground a:hover,
+.hero-platform a:any-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* --- Desktop: taller hero, wider side gutters, reserve graphic space --- */
 @media (width >= 900px) {
   .hero-platform .hero-platform-foreground {
-    grid-template-columns: 45% 45%;
+    min-height: 672px;
+
+    /* Source content column starts ~80px from the viewport edge inside a wide
+       (~1380px) container. Use a wider max-width + side padding to match. */
+    max-width: 1380px;
+    padding: 80px 50px;
+
+    /* Constrain text to the left ~50% so the (decorative) graphic has room. */
+    align-items: flex-start;
+  }
+
+  .hero-platform .hero-platform-foreground > * {
+    max-width: 590px;
+  }
+
+  .hero-platform .hero-platform-heading,
+  .hero-platform h1 {
+    margin: 0 0 40px;
+    font-size: var(--heading-font-size-xxl, 72px);
+    line-height: 76px;
   }
 }

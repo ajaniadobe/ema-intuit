@@ -1,30 +1,45 @@
-export default function init(el) {
-  const inner = el.querySelector(':scope > div');
-  inner.classList.add('card-linktile-inner');
-  const pic = el.querySelector('picture');
-  if (pic) {
-    const picPara = pic.closest('p');
-    if (picPara) {
-      const picDiv = document.createElement('div');
-      picDiv.className = 'card-linktile-picture-container';
-      picDiv.append(pic);
-      inner.insertAdjacentElement('afterbegin', picDiv);
-      picPara.remove();
-    }
-  }
-  // Decorate content
-  const con = inner.querySelector(':scope > div:not([class])');
-  if (con) con.classList.add('card-linktile-content-container');
+export default function init(block) {
+  // The block holds one row per tile. Each row = [picture cell, link cell].
+  const rows = [...block.children];
+  rows.forEach((row) => {
+    row.classList.add('card-linktile-tile');
 
-  // Make the whole tile clickable using the first link found in the content.
-  const link = inner.querySelector('a[href]');
-  if (link) {
+    const cells = [...row.children];
+    const picCell = cells.find((c) => c.querySelector('picture, img'));
+    const linkCell = cells.find((c) => c.querySelector('a[href]'));
+    const link = linkCell ? linkCell.querySelector('a[href]') : null;
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    const label = link.textContent.trim();
+
+    // Build the heading + arrow text content.
+    const heading = document.createElement('h3');
+    heading.className = 'card-linktile-heading';
+    heading.textContent = label;
+
+    const arrow = document.createElement('span');
+    arrow.className = 'card-linktile-arrow';
+    arrow.setAttribute('aria-hidden', 'true');
+
+    const text = document.createElement('div');
+    text.className = 'card-linktile-text';
+    text.append(heading, arrow);
+
+    // Picture container (clips/positions the tall photo).
+    const picContainer = document.createElement('div');
+    picContainer.className = 'card-linktile-picture';
+    const pic = picCell ? picCell.querySelector('picture') : null;
+    if (pic) picContainer.append(pic);
+
+    // Whole tile becomes a single anchor.
     const anchor = document.createElement('a');
     anchor.className = 'card-linktile-link';
-    anchor.href = link.getAttribute('href');
-    anchor.setAttribute('aria-label', link.textContent.trim());
-    el.classList.add('card-linktile-clickable');
-    inner.before(anchor);
-    anchor.append(inner);
-  }
+    anchor.href = href;
+    anchor.setAttribute('aria-label', label);
+    anchor.append(text, picContainer);
+
+    row.textContent = '';
+    row.append(anchor);
+  });
 }

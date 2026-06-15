@@ -1,85 +1,105 @@
-/* card-linktile: large clickable image tiles (Intuit homepage "Driving
-   success together"). Each tile = tall photo + heading; the entire tile links
-   to a destination. */
+/* card-linktile — Intuit homepage "Driving success together" big link tiles.
+   Each tile = tall portrait photo on the right, heading top-left, circular
+   arrow affordance below the heading; the whole tile is a single link.
+   Values extracted from intuit.com (C06 Quicklinks / MBigLinkCard). */
 
+/* The block is the row of tiles. Mobile-first: stack. */
 .card-linktile {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.card-linktile .card-linktile-tile {
+  position: relative;
+}
+
+.card-linktile .card-linktile-link {
+  display: block;
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 12%);
-  transition: all 0.25s ease-in-out;
-  color: light-dark(var(--color-dark), var(--color-light));
+  text-decoration: none;
+  color: var(--intuit-text-heading);
+  padding: 24px 0 24px 32px;
+  min-height: 189px;
+}
 
-  .card-linktile-link {
-    display: block;
-    color: inherit;
-    text-decoration: none;
+/* Text column (heading + arrow), left side, clears the photo on the right. */
+.card-linktile .card-linktile-text {
+  position: relative;
+  z-index: 1;
+
+  /* leave room for the 184px photo + its inner offset on the right */
+  width: calc(100% - 184px - 24px);
+}
+
+.card-linktile .card-linktile-heading {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+  color: var(--intuit-text-heading);
+  margin: 0;
+}
+
+/* Circular arrow affordance below the heading. */
+.card-linktile .card-linktile-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-top: 24px;
+  border: 1px solid rgb(0 37 74 / 20%);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.card-linktile .card-linktile-arrow::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--intuit-text-heading);
+  border-left: 0;
+  border-bottom: 0;
+  transform: rotate(45deg);
+  margin-left: -2px;
+}
+
+/* Tall portrait photo anchored to the right; on mobile it sits inline. */
+.card-linktile .card-linktile-picture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 184px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.card-linktile .card-linktile-picture picture,
+.card-linktile .card-linktile-picture img {
+  display: block;
+  width: 184px;
+  height: 328px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Subtle lift on hover. */
+.card-linktile .card-linktile-link:hover .card-linktile-arrow {
+  background-color: rgb(0 37 74 / 6%);
+}
+
+/* Desktop: 3 tiles across, evenly spaced. */
+@media (width >= 900px) {
+  .card-linktile {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
   }
 
-  .card-linktile-inner {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .card-linktile-picture-container {
-    position: relative;
-    padding-bottom: 120%;
-
-    picture {
-      position: absolute;
-      inset: 0;
-    }
-
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.3s ease-in-out;
-    }
-  }
-
-  .card-linktile-content-container {
-    padding: var(--spacing-l, 24px);
-
-    :first-child {
-      margin-top: 0;
-    }
-
-    :last-child {
-      margin-bottom: 0;
-    }
-
-    h2,
-    h3,
-    h4 {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin: 0;
-    }
-
-    h2::after,
-    h3::after,
-    h4::after {
-      content: '';
-      width: 12px;
-      height: 12px;
-      border: 2px solid currentcolor;
-      border-bottom: 0;
-      border-left: 0;
-      transform: rotate(45deg);
-      flex: 0 0 auto;
-    }
-  }
-
-  &:hover {
-    transform: scale(1.005);
-    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 16%);
-
-    .card-linktile-picture-container img {
-      transform: scale(1.04);
-    }
+  .card-linktile .card-linktile-tile {
+    flex: 1 1 0;
   }
 }

@@ -1,50 +1,155 @@
-/* advanced-tabs-stories: audience pill switcher for the customer success
-   carousel (Intuit homepage). Pills (Small Businesses / Individuals /
-   Mid-Market Businesses) switch sibling sections that each contain a
-   nested customer-story carousel. */
+/* advanced-tabs-stories — Intuit homepage "How Intuit drives success for".
+   Audience pill switcher (Small Businesses / Individuals / Mid-Market
+   Businesses) above a set of customer-story cards.
 
-.advanced-tabs-stories {
-  .section {
-    display: none;
+   Visual reference: intuit.com C04ArticleShowcase + CarouselControls.
+   - Section: light-blue gradient backdrop.
+   - Pill control: text labels; the ACTIVE label is a white rounded pill,
+     inactive labels are dimmed dark text (no fill).
+   - Story card: white card (2px radius), full-bleed photo on top (no radius),
+     a quote, and a blue "Read/Watch ... story" link. */
 
-    &.is-visible {
-      display: block;
-    }
-
-    &[data-status] {
-      display: none;
-    }
-  }
+/* ---- panel show / hide (mechanism preserved) ---- */
+.advanced-tabs-stories .advanced-tabs-stories-panel {
+  display: none;
 }
 
+.advanced-tabs-stories .advanced-tabs-stories-panel.is-visible {
+  display: block;
+}
+
+/* ---- pill control ---- */
 .advanced-tabs-stories-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   list-style: none;
-  gap: 8px;
-  margin: 0 auto var(--spacing-l);
-  padding: 6px;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 10px 0 40px;
   width: fit-content;
-  background-color: light-dark(var(--color-gray-100, #f2f2f2), var(--color-gray-800, #2a2a2a));
-  border-radius: 999px;
+  max-width: 100%;
 
   button {
     background-color: transparent;
     border: none;
-    border-radius: 999px;
-    font-size: var(--body-font-size-m, 16px);
-    font-weight: 600;
-    padding: 10px 20px;
+    border-radius: 40px;
+    font-family: var(--intuit-font-family);
+    font-size: var(--heading-font-size-l, 32px);
+    font-weight: 500;
+    line-height: 1.31;
+    padding: 12px 32px;
     margin: 0;
-    color: light-dark(var(--color-gray-600, #555), var(--color-gray-300, #ccc));
+    color: var(--intuit-text-body, #21262a);
+    opacity: 0.8;
     box-sizing: border-box;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out,
+      box-shadow 0.2s ease-in-out;
 
     &.is-active {
-      color: light-dark(#fff, #000);
-      background-color: light-dark(#000, #fff);
+      opacity: 1;
+      color: var(--intuit-text-body, #21262a);
+      background-color: #fff;
+      box-shadow: 0 2px 12px rgb(0 0 0 / 8%);
     }
+  }
+}
+
+/* ---- slide row (unwrapped from the Carousel Stories table) ---- */
+.advanced-tabs-stories .stories-slides {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--spacing-l, 24px);
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.advanced-tabs-stories .stories-slide {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 376px;
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+/* customer photo — full bleed, sharp corners, 3:2 */
+.advanced-tabs-stories .stories-slide-image {
+  margin: 0;
+}
+
+.advanced-tabs-stories .stories-slide-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 376 / 252;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* card body */
+.advanced-tabs-stories .stories-slide-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 32px 32px;
+}
+
+/* brand-logo badges sit inline if present */
+.advanced-tabs-stories .stories-slide-content picture,
+.advanced-tabs-stories .stories-slide-content img {
+  width: auto;
+}
+
+.advanced-tabs-stories .stories-slide-content p {
+  margin: 0;
+  font-family: var(--intuit-font-family);
+  font-size: var(--body-font-size-s, 14px);
+  font-weight: 500;
+  line-height: 1.43;
+  color: var(--intuit-text-body, #21262a);
+}
+
+/* story link — plain blue text, no button chrome */
+.advanced-tabs-stories .stories-slide-content a,
+.advanced-tabs-stories .stories-slide-content a.button:any-link {
+  display: inline-block;
+  width: fit-content;
+  margin: 0;
+  padding: 0 0 3px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-family: var(--intuit-font-family);
+  font-size: var(--body-font-size-m, 16px);
+  font-weight: 400;
+  color: var(--intuit-blue, #236cff);
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.advanced-tabs-stories .stories-slide-content a:hover {
+  text-decoration: underline;
+}
+
+/* the story-link <p> wrapper (EDS button-container) should not add spacing */
+.advanced-tabs-stories .stories-slide-content .button-container {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .advanced-tabs-stories .stories-slides {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: stretch stretch;
+    gap: var(--spacing-l, 24px);
+  }
+
+  .advanced-tabs-stories .stories-slide {
+    max-width: none;
   }
 }

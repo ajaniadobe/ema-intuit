@@ -120,6 +120,30 @@
     }
   }
 
+  /* Intuit "Driving success together" cyan section (C06 Quicklinks). */
+  &.sky-blue {
+    background-color: rgb(194 245 255);
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+    > .default-content,
+    > .block-content {
+      max-width: var(--grid-container-width);
+      margin-inline: auto;
+    }
+
+    > .default-content {
+      margin-bottom: 48px;
+
+      h2 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 52px;
+        color: var(--intuit-text-heading);
+      }
+    }
+  }
+
   &.has-background {
     position: relative;
 
