@@ -1,24 +1,26 @@
 /* hero-company: light mission hero — customer photo beside eyebrow + H1 + paragraph.
    Source: https://www.intuit.com/company/ (top "OUR MISSION" hero). Light background,
-   no CTA button, image to one side of the text. */
+   no CTA button, image to one side of the text. The block renders as two direct
+   child rows: row 1 = image, row 2 = content. On desktop they sit side-by-side
+   (text LEFT, image RIGHT) to match the source. */
 
-.hero-company > div {
+.hero-company {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-xl, 40px);
+  gap: var(--spacing-l, 24px);
   align-items: center;
+  max-width: var(--intuit-content-max-width, 1200px);
+  margin: 0 auto;
+  padding: var(--spacing-xl, 40px) 24px;
+  box-sizing: border-box;
 }
 
-/* image cell: tall portrait photo, rounded */
-.hero-company .hero-company-image {
-  position: relative;
-}
-
-.hero-company .hero-company-image picture {
+/* image row: tall portrait photo, rounded */
+.hero-company > div:first-child picture {
   display: block;
 }
 
-.hero-company .hero-company-image img {
+.hero-company > div:first-child img {
   display: block;
   width: 100%;
   height: auto;
@@ -26,48 +28,53 @@
   object-fit: cover;
 }
 
-/* content cell */
-.hero-company .hero-company-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-company .hero-company-content :first-child {
+/* content row */
+.hero-company > div:last-child > div :first-child {
   margin-top: 0;
 }
 
-.hero-company .hero-company-content :last-child {
+.hero-company > div:last-child > div :last-child {
   margin-bottom: 0;
 }
 
-/* eyebrow line: uppercase, small, tracked-out */
-.hero-company .hero-company-eyebrow {
+/* eyebrow line (first <p>): uppercase, small, tracked-out */
+.hero-company > div:last-child p:first-of-type {
   margin: 0 0 16px;
-  color: var(--intuit-text-body, #2c2c2c);
+  color: var(--intuit-text-body, #21262a);
   font-size: var(--body-font-size-s, 14px);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-.hero-company .hero-company-content h1 {
+.hero-company h1 {
   margin: 0 0 16px;
-  color: var(--intuit-text-heading, #000);
+  color: var(--intuit-text-heading, #393a3d);
 }
 
-.hero-company .hero-company-content p {
+.hero-company > div:last-child p {
   margin: 0;
-  color: var(--intuit-text-body, #2c2c2c);
-}
-
-/* text-only fallback: centered */
-.hero-company.hero-company-no-image > div {
-  grid-template-columns: 1fr;
-  text-align: center;
+  color: var(--intuit-text-body, #21262a);
 }
 
 @media (width >= 900px) {
-  .hero-company > div {
-    grid-template-columns: minmax(0, 0.9fr) 1.1fr;
+  .hero-company {
+    /* text LEFT, image RIGHT (source layout) */
+    grid-template-columns: 1.1fr minmax(0, 0.7fr);
+    gap: var(--spacing-xxl, 48px);
+  }
+
+  /* place the content row in column 1, image row in column 2 */
+  .hero-company > div:first-child {
+    order: 2;
+  }
+
+  .hero-company > div:last-child {
+    order: 1;
+  }
+
+  .hero-company > div:first-child img {
+    max-width: 312px;
+    margin-left: auto;
   }
 }

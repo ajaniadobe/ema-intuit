@@ -75,8 +75,21 @@
       grid-template-columns: repeat(var(--child-count), 1fr);
     }
 
+    /* source layout: text LEFT, image RIGHT (image cell is col-1 from parser) */
+    .row .col-1 {
+      order: 2;
+    }
+
+    .row .col-2 {
+      order: 1;
+    }
+
     &.z-pattern {
       .row:nth-of-type(odd) .col-1 {
+        order: 1;
+      }
+
+      .row:nth-of-type(odd) .col-2 {
         order: 2;
       }
     }
