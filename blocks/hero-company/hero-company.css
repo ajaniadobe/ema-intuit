@@ -1,0 +1,73 @@
+/* hero-company: light mission hero — customer photo beside eyebrow + H1 + paragraph.
+   Source: https://www.intuit.com/company/ (top "OUR MISSION" hero). Light background,
+   no CTA button, image to one side of the text. */
+
+.hero-company > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl, 40px);
+  align-items: center;
+}
+
+/* image cell: tall portrait photo, rounded */
+.hero-company .hero-company-image {
+  position: relative;
+}
+
+.hero-company .hero-company-image picture {
+  display: block;
+}
+
+.hero-company .hero-company-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* content cell */
+.hero-company .hero-company-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-company .hero-company-content :first-child {
+  margin-top: 0;
+}
+
+.hero-company .hero-company-content :last-child {
+  margin-bottom: 0;
+}
+
+/* eyebrow line: uppercase, small, tracked-out */
+.hero-company .hero-company-eyebrow {
+  margin: 0 0 16px;
+  color: var(--intuit-text-body, #2c2c2c);
+  font-size: var(--body-font-size-s, 14px);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-company .hero-company-content h1 {
+  margin: 0 0 16px;
+  color: var(--intuit-text-heading, #000);
+}
+
+.hero-company .hero-company-content p {
+  margin: 0;
+  color: var(--intuit-text-body, #2c2c2c);
+}
+
+/* text-only fallback: centered */
+.hero-company.hero-company-no-image > div {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+@media (width >= 900px) {
+  .hero-company > div {
+    grid-template-columns: minmax(0, 0.9fr) 1.1fr;
+  }
+}

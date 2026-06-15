@@ -1,0 +1,37 @@
+{
+  "variantName": "card-stats",
+  "baseBlock": "card",
+  "version": "1.0.0",
+  "created": "2026-06-15T02:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.intuit.com/company/",
+    "originPage": "Intuit Company / About landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "feature",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "big figure (heading) + label + small accompanying image/icon",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "'by the numbers' / fast-facts stat grids",
+      "metric cards where a large figure is the dominant element with a short label and small image"
+    ],
+    "notSuitableFor": [
+      "article cards with category eyebrow + read-more link (use card-articles)",
+      "tall clickable photo navigation tiles (use card-linktile)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/company/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T02:43:00.000Z"
+  }
+}

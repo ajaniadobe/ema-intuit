@@ -5,56 +5,175 @@
   "templates": [
     {
       "name": "homepage",
-      "urls": ["https://www.intuit.com/"],
+      "urls": [
+        "https://www.intuit.com/"
+      ],
       "description": "Intuit en-US homepage: hero with headline + CTA, product showcase tabs (TurboTax/Credit Karma/QuickBooks/Mailchimp), customer success carousel, innovation/impact card grid, and a 'driving success together' link-card row.",
       "blocks": [
         {
           "name": "hero-platform",
-          "instances": ["section[data-section=\"hero\"]"]
+          "instances": [
+            "section[data-section=\"hero\"]"
+          ]
         },
         {
           "name": "advanced-tabs-product",
-          "instances": ["section[data-section=\"product-showcase\"]"]
+          "instances": [
+            "section[data-section=\"product-showcase\"]"
+          ]
         },
         {
           "name": "columns-product",
-          "instances": ["section[data-section=\"product-showcase\"] div[data-cols]"]
+          "instances": [
+            "section[data-section=\"product-showcase\"] div[data-cols]"
+          ]
         },
         {
           "name": "advanced-tabs-stories",
-          "instances": ["section[data-section=\"customer-success\"]"]
+          "instances": [
+            "section[data-section=\"customer-success\"]"
+          ]
         },
         {
           "name": "carousel-stories",
-          "instances": ["section[data-section=\"customer-success\"] div[data-carousel]"]
+          "instances": [
+            "section[data-section=\"customer-success\"] div[data-carousel]"
+          ]
         },
         {
           "name": "card-articles",
-          "instances": ["section[data-section=\"innovation\"] div[data-cards]"]
+          "instances": [
+            "section[data-section=\"innovation\"] div[data-cards]"
+          ]
         },
         {
           "name": "card-linktile",
-          "instances": ["section[data-section=\"driving-success\"] div[data-cards]"]
+          "instances": [
+            "section[data-section=\"driving-success\"] div[data-cards]"
+          ]
         },
         {
           "name": "section-product-showcase",
-          "instances": ["section[data-section=\"product-showcase\"]"],
+          "instances": [
+            "section[data-section=\"product-showcase\"]"
+          ],
           "section": "light-grey"
         },
         {
           "name": "section-customer-success",
-          "instances": ["section[data-section=\"customer-success\"]"],
+          "instances": [
+            "section[data-section=\"customer-success\"]"
+          ],
           "section": "light"
         },
         {
           "name": "section-innovation",
-          "instances": ["section[data-section=\"innovation\"]"],
+          "instances": [
+            "section[data-section=\"innovation\"]"
+          ],
           "section": "light"
         },
         {
           "name": "section-driving-success",
-          "instances": ["section[data-section=\"driving-success\"]"],
+          "instances": [
+            "section[data-section=\"driving-success\"]"
+          ],
           "section": "sky-blue"
+        }
+      ]
+    },
+    {
+      "name": "company",
+      "urls": [
+        "https://www.intuit.com/company/"
+      ],
+      "description": "Intuit Company landing page (corporate about): light hero, blog card grid, fast-facts stat cards, customer-stories carousel, two columns splits, and a link-tile row.",
+      "blocks": [
+        {
+          "name": "hero-company",
+          "instances": [
+            "section[data-section=\"1\"] .hero"
+          ]
+        },
+        {
+          "name": "card-articles",
+          "instances": [
+            "section[data-section=\"3\"] .article-cards"
+          ]
+        },
+        {
+          "name": "card-stats",
+          "instances": [
+            "section[data-section=\"4\"] .stats"
+          ]
+        },
+        {
+          "name": "carousel-stories",
+          "instances": [
+            "section[data-section=\"5\"] .stories-carousel"
+          ]
+        },
+        {
+          "name": "columns-product",
+          "instances": [
+            "section[data-section=\"6\"] .columns",
+            "section[data-section=\"7\"] .columns"
+          ]
+        },
+        {
+          "name": "card-linktile",
+          "instances": [
+            "section[data-section=\"8\"] .link-tiles"
+          ]
+        },
+        {
+          "name": "section-stand-for",
+          "instances": [
+            "section[data-section=\"2\"]"
+          ],
+          "section": "light"
+        },
+        {
+          "name": "section-blog",
+          "instances": [
+            "section[data-section=\"3\"]"
+          ],
+          "section": "light"
+        },
+        {
+          "name": "section-fast-facts",
+          "instances": [
+            "section[data-section=\"4\"]"
+          ],
+          "section": "light"
+        },
+        {
+          "name": "section-stories",
+          "instances": [
+            "section[data-section=\"5\"]"
+          ],
+          "section": "light"
+        },
+        {
+          "name": "section-products",
+          "instances": [
+            "section[data-section=\"6\"]"
+          ],
+          "section": "light"
+        },
+        {
+          "name": "section-beyond",
+          "instances": [
+            "section[data-section=\"7\"]"
+          ],
+          "section": "light"
+        },
+        {
+          "name": "section-together",
+          "instances": [
+            "section[data-section=\"8\"]"
+          ],
+          "section": "light-green"
         }
       ]
     }
