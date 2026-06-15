@@ -1,57 +1,126 @@
+/* Intuit-style footer: 5 link columns, brand-logo row + secondary links,
+   and a legal/copyright block. Matches intuit.com footer layout. */
+
 footer {
-  a {
-    text-decoration: none;
-  }
+  background-color: #fff;
+  border-top: 1px solid var(--color-gray-200, #e3e5e8);
+}
 
-  .footer-content {
-    max-width: var(--grid-container-width);
-    margin: 48px auto;
-    font-size: 14px;
-  }
+footer a {
+  text-decoration: none;
+  color: var(--intuit-text-body, #21262a);
+}
 
-  .section-legal ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+footer a:hover {
+  color: var(--intuit-blue, #236cff);
+}
 
-  .section-copyright p {
-    margin: 0;
-  }
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  .section {
-    .default-content {
-      max-width: initial;
-      margin: initial;
-    }
+footer li,
+footer p {
+  margin: 0;
+}
+
+footer .footer-content {
+  max-width: var(--intuit-content-max-width, 1200px);
+  margin: 0 auto;
+  padding: 48px 24px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* --- link columns --- */
+footer .footer-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+footer .footer-column h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--intuit-text-heading, #393a3d);
+  margin: 0 0 16px;
+}
+
+footer .footer-column li {
+  margin-bottom: 12px;
+}
+
+footer .footer-column a {
+  font-size: 14px;
+}
+
+/* --- brand logos + secondary links --- */
+footer .footer-brands {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--color-gray-200, #e3e5e8);
+}
+
+footer .footer-brands ul:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+footer .footer-brands ul:first-child img {
+  height: 24px;
+  width: auto;
+  display: block;
+}
+
+footer .footer-brands ul:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+footer .footer-brands ul:last-child a {
+  font-size: 14px;
+}
+
+/* --- legal / copyright --- */
+footer .footer-legal {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-gray-200, #e3e5e8);
+  color: var(--color-gray-600, #5b5f66);
+}
+
+footer .footer-legal p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+footer .footer-legal ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+footer .footer-legal ul a {
+  font-size: 12px;
+  color: var(--intuit-text-body, #21262a);
+}
+
+@media (width >= 700px) {
+  footer .footer-columns {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (width >= 900px) {
-  footer {
-    margin: 0;
-
-    .section-legal {
-      display: flex;
-      justify-content: end;
-      gap: var(--spacing-xl);
-      margin-bottom: 24px;
-
-      ul {
-        display: flex;
-        justify-content: end;
-        gap: var(--spacing-xl);
-      }
-
-      li {
-        margin: 0;
-      }
-    }
-
-    .section-copyright {
-      display: flex;
-      justify-content: end;
-      gap: var(--spacing-xl);
-    }
+@media (width >= 1000px) {
+  footer .footer-columns {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
