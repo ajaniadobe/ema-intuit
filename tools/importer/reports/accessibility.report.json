@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.intuit.com/accessibility/",
+  "path": "accessibility",
+  "timestamp": "2026-06-15T05:28:08.707Z",
+  "title": "Accessibility Policies | Intuit",
+  "template": "accessibility",
+  "blocks": [
+    "hero-company",
+    "columns-product",
+    "columns-product",
+    "columns-product",
+    "columns-product",
+    "columns-product",
+    "columns-product"
+  ]
+}

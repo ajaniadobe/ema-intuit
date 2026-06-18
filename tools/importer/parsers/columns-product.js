@@ -24,8 +24,9 @@ export default function parse(element, { document }) {
   // Heading.
   const heading = element.querySelector(':scope > h1, :scope > h2, :scope > h3, h2');
 
-  // Body paragraph: a top-level paragraph that has neither an image (eyebrow) nor a link (CTA).
-  const bodyParagraph = Array.from(element.querySelectorAll(':scope > p')).find(
+  // Body paragraphs: ALL top-level paragraphs that have neither an image
+  // (eyebrow) nor a link (CTA). Some sections carry more than one body paragraph.
+  const bodyParagraphs = Array.from(element.querySelectorAll(':scope > p')).filter(
     (p) => !p.querySelector('img') && !p.querySelector('a'),
   );
 
@@ -33,11 +34,11 @@ export default function parse(element, { document }) {
   const ctaParagraph = Array.from(element.querySelectorAll(':scope > p')).find((p) => p.querySelector('a'));
   const ctaLink = ctaParagraph ? ctaParagraph.querySelector('a') : element.querySelector('a');
 
-  // Build the content cell in source order: eyebrow, heading, body, CTA.
+  // Build the content cell in source order: eyebrow, heading, body(s), CTA.
   const contentCell = [];
   if (eyebrow) contentCell.push(eyebrow);
   if (heading) contentCell.push(heading);
-  if (bodyParagraph) contentCell.push(bodyParagraph);
+  bodyParagraphs.forEach((p) => contentCell.push(p));
   if (ctaLink) contentCell.push(ctaParagraph || ctaLink);
 
   // Image cell.
@@ -47,6 +48,14 @@ export default function parse(element, { document }) {
     [imageCell, contentCell],
   ];
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'columns-product', cells });
+  // Alternating layout: when the source section is flagged image-left (the
+  // accessibility-page normalizer tags sections 3/5/7 with .image-left), emit
+  // the z-pattern variant so the columns-product CSS flips the image to the
+  // left. Default (no flag) keeps image-right. Backward compatible: company-page
+  // instances have no .image-left class and stay image-right.
+  const imageLeft = element.classList && element.classList.contains('image-left');
+  const name = imageLeft ? 'columns-product (z-pattern)' : 'columns-product';
+
+  const block = WebImporter.Blocks.createBlock(document, { name, cells });
   element.replaceWith(block);
 }
