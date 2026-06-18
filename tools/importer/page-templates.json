@@ -176,6 +176,34 @@
           "section": "light-green"
         }
       ]
+    },
+    {
+      "name": "accessibility",
+      "urls": [
+        "https://www.intuit.com/accessibility/"
+      ],
+      "description": "Intuit accessibility statement page (representative of the accessibility content template): light hero with portrait, six alternating image/text content splits, and a contact band with phone + email.",
+      "blocks": [
+        {
+          "name": "hero-company",
+          "instances": [
+            "section.hero-section"
+          ]
+        },
+        {
+          "name": "columns-product",
+          "instances": [
+            "section.content-section"
+          ]
+        },
+        {
+          "name": "section-contact",
+          "instances": [
+            "section.contact-section"
+          ],
+          "section": "light-cyan"
+        }
+      ]
     }
   ]
 }
